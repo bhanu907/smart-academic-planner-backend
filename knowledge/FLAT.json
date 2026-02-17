@@ -1,0 +1,75 @@
+{
+  "subject": "FLAT",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain deterministic and non-deterministic finite automata.",
+        "answer": "A finite automaton is a mathematical model of computation used to recognize patterns and languages. It consists of a finite set of states, input alphabet, transition function, start state, and final states. Automata are widely used in lexical analysis, compiler design, and text processing.\n\nA deterministic finite automaton (DFA) has exactly one transition for each symbol in the alphabet from every state. This means at any point, the next state is uniquely determined. DFAs are simple to implement and easy to analyze.\n\nIn contrast, a non-deterministic finite automaton (NFA) may have multiple transitions for the same input symbol. It may even move without consuming input using epsilon transitions. NFAs provide flexibility and are often easier to construct from regular expressions.\n\nDespite their differences, DFAs and NFAs are equivalent in power. Any language accepted by an NFA can also be accepted by a DFA. However, conversion may increase number of states.\n\nBoth models are essential for understanding regular languages and designing pattern recognizers."
+      },
+      {
+        "question": "Explain minimization of finite automata.",
+        "answer": "Minimization is the process of reducing the number of states in a finite automaton while preserving its language. The goal is to create the simplest machine that behaves identically to the original.\n\nThe process involves identifying equivalent states. Two states are equivalent if they cannot be distinguished by any input string. Partitioning methods are commonly used where states are grouped and refined iteratively.\n\nMinimized automata require less memory and are efficient in implementation. They are widely used in compiler construction and digital circuits."
+      },
+      {
+        "question": "Explain Moore and Mealy machines.",
+        "answer": "Finite automata with output are classified into Moore and Mealy machines. In Moore machines, output depends only on the current state. Each state has an associated output value.\n\nIn Mealy machines, output depends on both current state and input symbol. Therefore, outputs are associated with transitions.\n\nMealy machines usually require fewer states, while Moore machines are simpler to design. Both are used in control systems and digital design."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain regular expressions and their relation with finite automata.",
+        "answer": "Regular expressions are algebraic notations used to describe regular languages. They use operators such as union, concatenation, and Kleene star to build patterns.\n\nFor every regular expression, there exists a finite automaton that recognizes the same language. Similarly, for every FA, we can construct a regular expression. This equivalence is fundamental in automata theory.\n\nRegular expressions are widely used in programming languages for pattern matching and validation."
+      },
+      {
+        "question": "Explain pumping lemma for regular languages.",
+        "answer": "The pumping lemma is a property that all regular languages satisfy. It states that if a language is regular, long enough strings can be divided into three parts, and the middle part can be repeated any number of times while still remaining in the language.\n\nIt is mainly used to prove that certain languages are not regular. By showing contradiction, we demonstrate that no finite automaton can recognize them."
+      },
+      {
+        "question": "Explain regular grammars.",
+        "answer": "Regular grammars are used to generate regular languages. They are classified as right-linear or left-linear depending on position of non-terminals.\n\nThere is a direct correspondence between regular grammars and finite automata. Conversions between them help in understanding structure of languages."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain context free grammars.",
+        "answer": "Context free grammars are more powerful than regular grammars. They consist of variables, terminals, productions, and a start symbol. CFGs are used to describe syntax of programming languages.\n\nThey can generate nested structures such as balanced parentheses, which regular languages cannot handle.\n\nParse trees represent derivations and help in understanding sentence structure."
+      },
+      {
+        "question": "Explain pushdown automata.",
+        "answer": "Pushdown automata are computational models that include a stack in addition to finite control. The stack allows them to recognize context free languages.\n\nA PDA can push, pop, or read symbols from stack while processing input. Acceptance can be by final state or empty stack, and both methods are equivalent.\n\nPDAs are widely used in parsing and syntax analysis."
+      },
+      {
+        "question": "Explain normal forms of CFG.",
+        "answer": "Normal forms simplify grammars while preserving languages. Chomsky normal form restricts productions to two variables or one terminal. Greibach normal form requires productions to start with terminal symbols.\n\nThey are useful in proofs and algorithm design."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain Turing machine.",
+        "answer": "A Turing machine is a powerful model of computation capable of simulating any algorithm. It consists of an infinite tape, read-write head, and control unit. Based on current state and symbol, it writes, moves, and changes state.\n\nTuring machines recognize recursively enumerable languages. They are fundamental in studying limits of computation.\n\nDifferent variations exist, but all are equivalent in power."
+      },
+      {
+        "question": "Explain Church’s hypothesis.",
+        "answer": "Church’s hypothesis states that any effectively computable function can be computed by a Turing machine. It forms the foundation of theoretical computer science.\n\nThough not mathematically proven, it is widely accepted."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain Chomsky hierarchy.",
+        "answer": "Chomsky hierarchy classifies languages into regular, context free, context sensitive, and recursively enumerable. Each class is more powerful than the previous.\n\nFinite automata recognize regular languages. PDA recognizes CFL. Linear bounded automata recognize context sensitive. Turing machines recognize recursively enumerable languages.\n\nThis hierarchy helps understand computational power."
+      },
+      {
+        "question": "Explain NP completeness.",
+        "answer": "Problems in NP can be verified in polynomial time. NP complete problems are hardest among them. If one NP complete problem is solved efficiently, all can be.\n\nThey are important in optimization and complexity theory."
+      },
+      {
+        "question": "Explain undecidability.",
+        "answer": "A problem is undecidable if no algorithm can determine solution for all inputs. Post correspondence problem is a famous example.\n\nUndecidability shows limitations of computation."
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "subject": "DM",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain propositional calculus.",
+        "answer": "Propositional calculus is a branch of mathematical logic that deals with statements which can be either true or false. These statements are combined using logical connectives such as AND, OR, NOT, implication, and biconditional. The purpose of propositional logic is to analyze logical relationships and determine validity of arguments.\n\nA well formed formula is created by combining statements according to rules of syntax. Truth tables are used to evaluate formulas under different truth values. A tautology is a formula that is always true regardless of inputs, while a contradiction is always false.\n\nEquivalence of formulas means two expressions give same truth value for all cases. Laws such as De Morgan and duality are used for simplification. Inference theory helps derive conclusions from premises using rules like modus ponens.\n\nPropositional calculus is fundamental in computer science, especially in circuit design, program verification, and artificial intelligence."
+      },
+      {
+        "question": "Explain predicate calculus.",
+        "answer": "Predicate calculus extends propositional logic by including variables, quantifiers, and predicates. Instead of simple statements, we describe properties of objects. Quantifiers such as universal and existential specify whether statements apply to all or some elements.\n\nVariables may be free or bound depending on scope. Predicate logic allows more expressive representation of knowledge.\n\nInference rules help derive conclusions logically. Predicate calculus is widely used in databases, formal verification, and reasoning systems."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain properties of binary relations.",
+        "answer": "A relation is a connection between elements of sets. Binary relations may have properties such as reflexive, symmetric, antisymmetric, and transitive. If every element is related to itself, it is reflexive. If aRb implies bRa, it is symmetric. If both aRb and bRa imply a=b, it is antisymmetric. Transitive means if aRb and bRc, then aRc.\n\nRelations can be represented using matrices or digraphs. Special types include equivalence relations and partial orders. These concepts are important in database theory and ordering problems."
+      },
+      {
+        "question": "Explain functions.",
+        "answer": "A function maps each element of one set to exactly one element of another. Functions can be injective, surjective, or bijective. Bijective functions have inverses.\n\nComposition combines functions. Recursive functions are defined in terms of themselves. Functions are central in mathematics and computer science."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain group and its properties.",
+        "answer": "A group is an algebraic structure consisting of a set with a binary operation. It must satisfy closure, associativity, identity, and inverse properties. If operation is commutative, it is called Abelian group.\n\nSubgroups are subsets that themselves form groups. Homomorphism preserves structure between groups, while isomorphism indicates structural equivalence.\n\nGroups are widely used in cryptography and symmetry analysis."
+      },
+      {
+        "question": "Explain Euclidean algorithm.",
+        "answer": "The Euclidean algorithm is used to find greatest common divisor of two integers. It repeatedly replaces larger number by remainder until zero is obtained. The last non-zero remainder is GCD.\n\nIt is efficient and forms basis for many cryptographic systems."
+      },
+      {
+        "question": "Explain modular arithmetic.",
+        "answer": "Modular arithmetic deals with remainders. Two numbers are congruent if they leave same remainder when divided by modulus. Fermat and Euler theorems help in computations involving large powers.\n\nIt is heavily used in encryption."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain pigeonhole principle.",
+        "answer": "The pigeonhole principle states that if more objects are placed into fewer boxes, at least one box must contain more than one object. Though simple, it has powerful applications in proofs and counting problems.\n\nIt is used in computer science, cryptography, and combinatorics."
+      },
+      {
+        "question": "Explain recurrence relations.",
+        "answer": "Recurrence relations define sequences using previous terms. They are used to analyze algorithms and models. Solutions can be obtained using substitution, characteristic roots, or generating functions.\n\nUnderstanding recurrence helps determine complexity."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain graph theory basics.",
+        "answer": "A graph consists of vertices and edges connecting them. Graphs may be directed or undirected. They model networks, relationships, and connections.\n\nImportant concepts include degree, paths, circuits, and connectivity. Matrix representations such as adjacency matrix help in computation."
+      },
+      {
+        "question": "Explain Eulerian and Hamiltonian graphs.",
+        "answer": "An Eulerian graph contains a path that uses every edge exactly once. A Hamiltonian graph contains a path that visits each vertex once. Conditions differ and are important in optimization problems."
+      },
+      {
+        "question": "Explain spanning trees.",
+        "answer": "A spanning tree connects all vertices without cycles. Algorithms such as Prim and Kruskal find minimum cost trees. They are essential in network design."
+      }
+    ]
+  }
+}

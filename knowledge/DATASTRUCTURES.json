@@ -1,0 +1,79 @@
+{
+  "subject": "DSA",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain algorithm complexity and performance analysis.",
+        "answer": "An algorithm is a step-by-step procedure to solve a problem. To evaluate how good an algorithm is, we measure its performance. Performance analysis mainly focuses on time and space requirements. Time complexity indicates how execution time increases with input size, while space complexity refers to memory usage.\n\nSince exact time depends on hardware and compiler, asymptotic analysis is used. It provides growth rate of running time. Big-O notation gives the worst case, Omega gives best case, and Theta gives average or tight bound.\n\nUnderstanding complexity helps programmers choose efficient solutions, especially when dealing with large datasets. Efficient algorithms save cost, energy, and time. Performance analysis is therefore a critical part of algorithm design."
+      },
+      {
+        "question": "Explain linear lists using arrays.",
+        "answer": "A linear list is a collection of elements arranged sequentially. Arrays are the simplest way to implement linear lists. Elements are stored in contiguous memory locations, and each element can be accessed using an index.\n\nArrays allow fast random access because the address can be calculated directly. However, insertion and deletion are expensive since elements may need to be shifted.\n\nArrays are widely used due to their simplicity, efficient memory usage, and direct access capability. They form the foundation for many advanced data structures."
+      },
+      {
+        "question": "Explain searching and sorting.",
+        "answer": "Searching is the process of finding a particular element in a list. Linear search checks each element sequentially. Binary search is faster but requires sorted data.\n\nSorting arranges elements in ascending or descending order. Popular methods include bubble sort, selection sort, insertion sort, merge sort, and quick sort. Efficient sorting improves searching and overall processing.\n\nSearching and sorting are fundamental operations in computer science."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain stacks and their operations.",
+        "answer": "A stack is a linear data structure that follows Last-In-First-Out principle. The element inserted last is removed first. Basic operations are push, pop, and peek.\n\nStacks are used in expression evaluation, recursion, undo operations, and syntax parsing. They can be implemented using arrays or linked lists.\n\nOverflow occurs when stack is full, and underflow when it is empty. Stacks are simple yet powerful tools in programming."
+      },
+      {
+        "question": "Explain queues and their operations.",
+        "answer": "A queue follows First-In-First-Out principle. Elements are inserted at the rear and removed from the front. Basic operations include enqueue and dequeue.\n\nQueues are used in scheduling, buffering, and resource management. Variants include circular queue and priority queue.\n\nQueues ensure fair processing of tasks."
+      },
+      {
+        "question": "Explain linked lists.",
+        "answer": "A linked list is a dynamic data structure where elements are stored in nodes connected by pointers. Unlike arrays, memory is not contiguous.\n\nTypes include singly, doubly, and circular linked lists. They allow efficient insertion and deletion but require sequential access.\n\nLinked lists are useful when size changes frequently."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain binary tree and its operations.",
+        "answer": "A binary tree is a hierarchical structure in which each node has at most two children. The top node is root. Operations include insertion, deletion, and searching.\n\nBinary trees are used in expression evaluation, hierarchical representation, and searching structures."
+      },
+      {
+        "question": "Explain tree traversals.",
+        "answer": "Traversal means visiting all nodes in a specific order. Inorder visits left-root-right. Preorder visits root-left-right. Postorder visits left-right-root.\n\nTraversal helps in copying, printing, and evaluating trees."
+      },
+      {
+        "question": "Explain binary search tree.",
+        "answer": "A binary search tree is a special binary tree where left subtree contains smaller elements and right subtree larger ones. This property makes searching fast.\n\nBST operations like insert, delete, and search can be done efficiently, often in logarithmic time."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain graph representations and operations.",
+        "answer": "A graph consists of vertices and edges. It can be represented using adjacency matrix or adjacency list. Operations include adding vertices, adding edges, and traversal.\n\nGraphs are widely used in networks, maps, and relationships."
+      },
+      {
+        "question": "Explain graph traversal algorithms.",
+        "answer": "Traversal methods include Breadth First Search and Depth First Search. BFS explores level by level using a queue. DFS goes deep using stack or recursion.\n\nThey are used in path finding, connectivity, and cycle detection."
+      },
+      {
+        "question": "Explain minimum spanning tree and shortest path.",
+        "answer": "A minimum spanning tree connects all vertices with minimum total edge weight. Algorithms include Prim and Kruskal.\n\nShortest path algorithms like Dijkstra find minimum distance between nodes. They are crucial in routing and navigation."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain hashing.",
+        "answer": "Hashing is a technique used to map data to fixed-size values using hash functions. It allows fast insertion, deletion, and search, often in constant time.\n\nHowever, collisions may occur when different keys map to same location."
+      },
+      {
+        "question": "Explain collision resolution techniques.",
+        "answer": "Collisions can be handled using chaining or open addressing. In chaining, elements are stored in linked lists. In open addressing, alternative positions are found using probing.\n\nProper handling ensures efficiency."
+      },
+      {
+        "question": "Explain pattern matching algorithms.",
+        "answer": "Pattern matching searches for a pattern within text. Algorithms like naive method, KMP, and Rabin-Karp improve speed.\n\nThey are widely used in text editors, search engines, and bioinformatics."
+      }
+    ]
+  }
+}

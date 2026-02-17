@@ -1,0 +1,79 @@
+{
+  "subject": "OOPS",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain Object Oriented Programming and Java buzzwords.",
+        "answer": "Object Oriented Programming (OOP) is a programming paradigm that organizes software design around objects rather than functions or logic. An object represents a real-world entity and contains data as well as methods to operate on that data. The main features of OOP include encapsulation, inheritance, polymorphism, and abstraction. These features help in developing reusable, maintainable, and modular software systems.\n\nJava is a popular object-oriented language and is known for its special features called buzzwords. Important buzzwords include simple, secure, portable, platform-independent, robust, distributed, multithreaded, and dynamic. Java programs are compiled into bytecode which can run on any system that has a Java Virtual Machine (JVM). This makes Java highly portable.\n\nBecause of these advantages, Java is widely used in web development, enterprise applications, and mobile applications."
+      },
+      {
+        "question": "Explain classes, objects, constructors and method overloading.",
+        "answer": "A class is a blueprint or template used to create objects. It defines variables and methods that describe the behavior of objects. An object is an instance of a class and represents a real entity in memory.\n\nConstructors are special methods used to initialize objects. They have the same name as the class and are executed when an object is created. Constructors help in assigning initial values to data members.\n\nMethod overloading allows multiple methods in the same class to have the same name but different parameter lists. It improves readability and supports compile-time polymorphism. Overloading increases flexibility and allows programmers to perform similar operations with different inputs."
+      },
+      {
+        "question": "Explain String and StringBuffer classes.",
+        "answer": "Strings in Java are objects that represent sequences of characters. The String class provides many methods to manipulate text, such as length, substring, comparison, and concatenation. One important feature of String is immutability, which means once a string object is created, its value cannot be changed.\n\nStringBuffer is used when mutable strings are required. Unlike String, objects of StringBuffer can be modified without creating new instances. This makes it more efficient for operations involving frequent changes.\n\nBoth classes are widely used in input handling, data processing, and application development."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain inheritance and its types.",
+        "answer": "Inheritance is a mechanism in which one class acquires the properties and behaviors of another class. The class that inherits is called the subclass, and the class being inherited from is called the superclass. Inheritance promotes code reusability and hierarchical classification.\n\nJava supports several types of inheritance. Single inheritance involves one subclass inheriting from one superclass. Multilevel inheritance occurs when a class is derived from another derived class. Hierarchical inheritance involves multiple subclasses inheriting from the same superclass.\n\nInheritance helps reduce redundancy and allows extension of existing code."
+      },
+      {
+        "question": "What are interfaces and how do they support polymorphism?",
+        "answer": "An interface in Java is a collection of abstract methods that a class can implement. It specifies what a class must do but not how it should do it. Interfaces help achieve abstraction and multiple inheritance.\n\nPolymorphism allows objects to be treated as instances of their parent type. When different classes implement the same interface, they can be accessed through a common reference. This enables flexibility and scalability in programs.\n\nInterfaces are widely used in large systems where different implementations may exist for the same functionality."
+      },
+      {
+        "question": "Explain compile-time and runtime polymorphism.",
+        "answer": "Polymorphism means many forms. Compile-time polymorphism is achieved through method overloading, where the method to be executed is determined during compilation based on parameters.\n\nRuntime polymorphism is achieved through method overriding, where a subclass provides its own implementation of a method defined in the superclass. The method call is resolved at runtime using dynamic binding.\n\nPolymorphism improves flexibility, extensibility, and maintainability of code."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain exception handling in Java.",
+        "answer": "Exception handling is a mechanism to manage runtime errors so that normal program flow is not interrupted. Java provides try, catch, finally, throw, and throws keywords for handling exceptions.\n\nBuilt-in exceptions include ArithmeticException, NullPointerException, and ArrayIndexOutOfBoundsException. Developers can also create custom exceptions by extending the Exception class.\n\nProper exception handling improves reliability and prevents program crashes. It also helps in debugging and maintaining software."
+      },
+      {
+        "question": "Explain byte streams and character streams.",
+        "answer": "Java uses streams for input and output operations. Byte streams handle raw binary data and are useful for reading and writing files such as images. Character streams handle text data and support encoding.\n\nCommon classes include FileInputStream, FileOutputStream, FileReader, and FileWriter. These streams make it easy to perform I/O operations efficiently."
+      },
+      {
+        "question": "What is object serialization?",
+        "answer": "Object serialization is the process of converting an object into a byte stream so that it can be stored in a file or transmitted over a network. Deserialization is the reverse process.\n\nSerialization is useful for saving program state and communication between systems. Java provides Serializable interface to support this feature."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain multithreading and thread life cycle.",
+        "answer": "Multithreading allows multiple threads to run concurrently within a program. A thread is a lightweight process that shares resources with other threads.\n\nThe life cycle of a thread includes states such as new, runnable, running, waiting, and terminated. Java provides Thread class and Runnable interface to create threads.\n\nMultithreading improves performance, especially in applications requiring parallel tasks."
+      },
+      {
+        "question": "What is synchronization?",
+        "answer": "Synchronization is used to control access to shared resources in multithreaded programs. Without synchronization, data inconsistency may occur.\n\nBy using synchronized methods or blocks, Java ensures that only one thread accesses critical sections at a time. This prevents race conditions and ensures data integrity."
+      },
+      {
+        "question": "Explain inter-thread communication.",
+        "answer": "Inter-thread communication allows threads to coordinate their actions. Methods such as wait(), notify(), and notifyAll() are used for this purpose.\n\nIt is commonly applied in producer-consumer problems. Proper communication ensures efficient execution and avoids deadlocks."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain GUI programming with Swing.",
+        "answer": "Swing is a part of Java Foundation Classes used for building graphical user interfaces. It provides a rich set of components such as buttons, labels, text fields, and tables.\n\nSwing is platform-independent and offers better look and feel compared to AWT. It follows a component-based architecture, making GUI development flexible."
+      },
+      {
+        "question": "Explain the event delegation model.",
+        "answer": "The event delegation model is used in Java to handle user interactions. When an event occurs, it is generated by a source and handled by a listener.\n\nListeners implement specific interfaces and respond to events such as button clicks or mouse movements. This model separates event handling from GUI components."
+      },
+      {
+        "question": "What are adapter classes and inner classes?",
+        "answer": "Adapter classes provide default implementations of listener interfaces. Developers can override only required methods, simplifying event handling.\n\nInner classes are classes defined inside another class. They are useful for handling events and accessing outer class members. These features make GUI programming more organized."
+      }
+    ]
+  }
+}

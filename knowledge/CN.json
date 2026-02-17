@@ -1,0 +1,59 @@
+{
+  "subject": "CN",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain OSI and TCP/IP reference models and compare them.",
+        "answer": "Computer networks allow computers to communicate and share resources. To standardize communication, reference models were developed. The two most popular models are the OSI reference model and the TCP/IP reference model. These models divide communication tasks into layers so that each layer performs a specific function.\n\nThe OSI model consists of seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application. The physical layer deals with transmission of raw bits. The data link layer ensures reliable transfer. The network layer handles routing. The transport layer provides end-to-end communication. Session manages connections. Presentation handles translation and encryption. Application provides services to users.\n\nThe TCP/IP model is simpler and consists of four layers: Network Access, Internet, Transport, and Application. The Internet layer corresponds to the network layer of OSI. The transport layer is similar in both. The application layer in TCP/IP includes session and presentation responsibilities as well.\n\nOSI is mainly a conceptual model used for teaching and understanding, whereas TCP/IP is practical and widely implemented on the Internet. OSI clearly separates services, interfaces, and protocols. TCP/IP focuses more on real-world functionality.\n\nDespite structural differences, both aim to achieve interoperability, modularity, and reliable communication. Understanding these models helps network engineers design and troubleshoot systems effectively."
+      },
+      {
+        "question": "Explain multiplexing techniques.",
+        "answer": "Multiplexing is a technique that allows multiple signals to share a single communication channel. It improves bandwidth utilization and reduces cost. Without multiplexing, separate channels would be required for each signal.\n\nThere are several types of multiplexing. Frequency Division Multiplexing divides the available bandwidth into smaller frequency ranges. Each signal is transmitted simultaneously on a different frequency. It is widely used in radio and television broadcasting.\n\nTime Division Multiplexing divides time into slots and assigns each signal a specific slot. Signals take turns using the channel. It is common in digital communication systems.\n\nCode Division Multiplexing assigns a unique code to each signal. All signals share the same frequency but can be separated using codes at the receiver. It provides security and resistance to interference.\n\nMultiplexing increases efficiency, supports multiple users, and plays a crucial role in modern networks."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain sliding window protocols.",
+        "answer": "Sliding window protocols are used in the data link layer to provide reliable and efficient data transmission. Instead of sending one frame at a time and waiting for acknowledgment, multiple frames can be sent before receiving responses. This improves channel utilization.\n\nThe sender maintains a window representing frames allowed to be sent. As acknowledgments arrive, the window slides forward, allowing more frames to be transmitted. This ensures continuous data flow.\n\nThere are two main types: Go-Back-N and Selective Repeat. In Go-Back-N, if an error occurs, all subsequent frames are retransmitted. In Selective Repeat, only erroneous frames are resent, improving efficiency.\n\nSliding window protocols handle flow control, prevent congestion, and ensure reliability. They are widely used in communication systems."
+      },
+      {
+        "question": "Explain error detection and correction.",
+        "answer": "During transmission, data may get corrupted due to noise. Error detection and correction techniques ensure data integrity. The sender adds extra bits, known as redundancy, to help identify mistakes.\n\nCommon methods include parity bits, checksums, and cyclic redundancy check (CRC). Parity adds a bit to make the number of ones even or odd. Checksums add data values. CRC uses polynomial division and is very reliable.\n\nError correction may involve retransmission or forward error correction where errors are fixed at the receiver. These mechanisms are essential for reliable communication."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain multiple access protocols.",
+        "answer": "Multiple access protocols determine how multiple devices share a common communication medium. When many users attempt to transmit, conflicts may occur. These protocols manage access efficiently.\n\nThey are classified into random access, controlled access, and channelization methods. In random access protocols like ALOHA and CSMA, devices transmit when ready but handle collisions through retransmission. Controlled access methods like polling and token passing allocate turns.\n\nChannelization methods such as FDMA, TDMA, and CDMA divide the channel into parts based on frequency, time, or codes.\n\nThese protocols are fundamental in LANs, WLANs, and wireless communication systems."
+      },
+      {
+        "question": "Explain IEEE standards for LANs.",
+        "answer": "IEEE developed standards to ensure interoperability in local area networks. The most important is IEEE 802. Ethernet falls under 802.3, while Wi-Fi belongs to 802.11.\n\nThese standards define frame formats, addressing, and medium access methods. They ensure devices from different vendors can communicate smoothly.\n\nStandardization reduces complexity and promotes global connectivity."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain routing algorithms.",
+        "answer": "Routing algorithms determine the best path for packets to travel from source to destination. Efficient routing reduces delay and improves reliability.\n\nThere are two major categories: static and dynamic routing. Static routing uses predefined paths. Dynamic routing adapts based on network conditions.\n\nExamples include distance vector and link state algorithms. Distance vector uses neighbor information, while link state builds a complete network map.\n\nGood routing avoids congestion, ensures optimal paths, and balances traffic."
+      },
+      {
+        "question": "Explain IP addressing and subnetting.",
+        "answer": "IP addresses uniquely identify devices on a network. IPv4 uses 32-bit addresses divided into network and host parts. Subnetting divides a network into smaller segments to improve management and security.\n\nSubnet masks determine boundaries. Supernetting combines networks. Proper addressing ensures efficient routing and utilization of resources."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain TCP and UDP.",
+        "answer": "TCP and UDP are transport layer protocols. TCP provides reliable, connection-oriented communication. It ensures ordered delivery, error checking, and congestion control. Before data transfer, a connection is established using a handshake.\n\nUDP is connectionless and faster but does not guarantee delivery. It is used in applications like streaming where speed is more important than reliability.\n\nBoth protocols serve different needs and are essential in networking."
+      },
+      {
+        "question": "Explain DNS and HTTP.",
+        "answer": "DNS translates domain names into IP addresses so users can access websites easily. It acts like a phonebook of the Internet.\n\nHTTP is the protocol used for transferring web pages. HTTPS adds security using encryption. Together, they enable browsing and communication on the World Wide Web."
+      }
+    ]
+  }
+}

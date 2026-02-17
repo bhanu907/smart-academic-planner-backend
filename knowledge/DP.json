@@ -1,0 +1,51 @@
+{
+  "subject": "DP",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "What is a design pattern? Explain how design patterns help in solving design problems.",
+        "answer": "A design pattern is a proven and reusable solution to a commonly occurring problem in software design. It is not a finished code or a ready-made program but a template that can be adapted to different situations. Design patterns capture best practices developed by experienced software developers over time.\n\nThey help in solving design problems by providing tested structures that improve flexibility, maintainability, and scalability. Instead of reinventing the solution, developers can follow standard approaches.\n\nDesign patterns promote communication among team members. When a developer mentions a pattern name, others immediately understand the structure and intent. This reduces confusion and improves productivity.\n\nPatterns also encourage loose coupling and high cohesion, which are essential qualities of good design. They make systems easier to modify and extend in the future.\n\nOverall, design patterns reduce development risk and help produce high-quality software."
+      },
+      {
+        "question": "How to select and use a design pattern?",
+        "answer": "Selecting a design pattern depends on understanding the problem context. The designer must analyze requirements, constraints, and possible variations. Once the nature of the problem is clear, appropriate patterns from the catalog can be chosen.\n\nUsing a design pattern involves understanding its intent, structure, participants, and consequences. The pattern is then adapted to fit the application rather than copying it directly.\n\nCareful use of patterns improves reusability and maintainability. However, misuse may lead to unnecessary complexity. Therefore, designers must balance need and benefit."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain creational design patterns.",
+        "answer": "Creational design patterns deal with object creation mechanisms. They abstract the instantiation process, making systems independent of how objects are created. This increases flexibility and reuse.\n\nAbstract Factory provides an interface for creating families of related objects without specifying concrete classes. Builder separates construction of complex objects from representation. Factory Method defines an interface for creating objects but lets subclasses decide which class to instantiate.\n\nPrototype creates new objects by copying existing ones. Singleton ensures that only one instance of a class exists throughout the application.\n\nThese patterns help manage object creation efficiently and support system scalability."
+      },
+      {
+        "question": "Explain the document editor case study.",
+        "answer": "The document editor case study is a classic example used to demonstrate application of multiple design patterns. It shows how different problems such as document structure, formatting, and user interface can be solved using patterns.\n\nFor instance, Composite pattern represents hierarchical structures, while Factory patterns manage object creation. Strategy may be used for formatting algorithms.\n\nThe case study proves that combining patterns leads to flexible and extensible design."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain structural design patterns.",
+        "answer": "Structural patterns focus on how classes and objects are composed to form larger structures. They ensure flexibility and efficiency in relationships.\n\nAdapter allows incompatible interfaces to work together. Bridge separates abstraction from implementation. Composite treats individual objects and compositions uniformly.\n\nDecorator adds responsibilities dynamically. Facade provides simplified interface. Flyweight shares objects to save memory. Proxy acts as a substitute to control access.\n\nThese patterns simplify complex systems and improve maintainability."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain behavioral design patterns.",
+        "answer": "Behavioral patterns deal with communication between objects and assignment of responsibilities. They focus on algorithms and object interaction.\n\nChain of Responsibility passes requests along a chain. Command encapsulates requests as objects. Interpreter defines grammar for language. Iterator provides sequential access.\n\nMediator centralizes communication. Memento captures object state. Observer defines dependency so that changes notify others.\n\nThese patterns improve flexibility and reduce coupling."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain State, Strategy, Template Method and Visitor patterns.",
+        "answer": "The State pattern allows an object to change behavior when its internal state changes. Strategy defines a family of algorithms and makes them interchangeable. Template Method defines skeleton of algorithm while subclasses override steps.\n\nVisitor separates operations from object structure, allowing new operations without modifying classes. These patterns enhance extensibility and maintainability."
+      },
+      {
+        "question": "What to expect from design patterns?",
+        "answer": "Design patterns provide guidance for building reliable systems. They improve communication, speed up development, and reduce errors. However, they are not magic solutions. Proper understanding is required.\n\nThe pattern community has grown over years, sharing experiences and evolving best practices. Learning patterns helps developers think in terms of reusable design."
+      }
+    ]
+  }
+}

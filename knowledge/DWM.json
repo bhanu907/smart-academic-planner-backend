@@ -1,0 +1,75 @@
+{
+  "subject": "DWDM",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain data warehouse architecture and OLAP vs OLTP.",
+        "answer": "A data warehouse is a centralized repository designed to store integrated data from multiple sources for analysis and decision making. Unlike operational databases, it supports historical data and complex queries. The architecture of a data warehouse typically includes data sources, ETL processes, warehouse storage, and front-end tools for reporting and analysis.\n\nThe ETL process extracts data from operational systems, transforms it into a consistent format, and loads it into the warehouse. Metadata and management tools help maintain accuracy and performance.\n\nOLTP systems are designed for day-to-day transactions such as banking or billing. They focus on fast inserts and updates. OLAP systems, on the other hand, are designed for analytical queries. They handle large volumes of data and support operations such as roll-up, drill-down, slicing, and dicing.\n\nOLTP is customer oriented and application focused, while OLAP is management oriented and supports strategic decisions. Understanding the difference is essential in business intelligence."
+      },
+      {
+        "question": "Explain data cube operations.",
+        "answer": "A data cube is a multidimensional representation of data used in OLAP systems. Each dimension represents a different attribute such as time, location, or product. It allows users to analyze information from multiple perspectives.\n\nImportant operations include roll-up, which aggregates data to a higher level; drill-down, which moves to more detailed levels; slice, which selects a single dimension value; and dice, which selects a sub-cube.\n\nPivot or rotate changes orientation for better visualization. Data cube operations make complex analysis easy and interactive."
+      },
+      {
+        "question": "Explain similarity and dissimilarity measures.",
+        "answer": "Similarity and dissimilarity measures are used to compare data objects. They play a crucial role in clustering, classification, and retrieval.\n\nCommon measures include Euclidean distance, Manhattan distance, cosine similarity, and Jaccard coefficient. Choice of measure depends on data type and application.\n\nAccurate measurement ensures meaningful results in mining tasks."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain data preprocessing.",
+        "answer": "Data preprocessing is the process of preparing raw data for mining. Real-world data is often incomplete, inconsistent, and noisy. Without preprocessing, results may be inaccurate.\n\nSteps include data cleaning, where errors and missing values are handled. Integration combines data from multiple sources. Reduction decreases volume while preserving information. Transformation converts data into suitable format, and discretization divides continuous values into intervals.\n\nPreprocessing improves quality, efficiency, and reliability of mining."
+      },
+      {
+        "question": "Explain data cleaning.",
+        "answer": "Data cleaning deals with correcting or removing inaccurate records. Missing values may be filled using mean or prediction methods. Noise can be smoothed using binning or clustering.\n\nCleaning ensures integrity and enhances trust in results."
+      },
+      {
+        "question": "Explain data reduction.",
+        "answer": "Data reduction reduces dataset size while maintaining analytical results. Techniques include dimensionality reduction, numerosity reduction, and compression.\n\nIt improves efficiency and lowers storage cost."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain classification.",
+        "answer": "Classification is a supervised learning technique used to assign data items into predefined classes. It involves training a model using labeled data and then using it to predict categories for new data.\n\nThe process includes model building, testing, and evaluation. Accuracy depends on quality of training data and algorithm choice.\n\nClassification is widely used in spam detection, medical diagnosis, and credit scoring."
+      },
+      {
+        "question": "Explain decision tree algorithm.",
+        "answer": "Decision trees represent decisions and outcomes in a tree structure. Internal nodes represent tests on attributes, branches represent outcomes, and leaves represent classes.\n\nAttribute selection measures such as information gain or Gini index help choose best splits. Decision trees are easy to interpret and widely used."
+      },
+      {
+        "question": "Explain Naïve Bayes.",
+        "answer": "Naïve Bayes is a probabilistic classifier based on Bayes theorem. It assumes independence among attributes. Despite simplicity, it performs well in many applications.\n\nIt is fast, scalable, and widely used in text classification."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain association analysis.",
+        "answer": "Association analysis discovers relationships among items in large datasets. It is commonly used in market basket analysis to find items purchased together.\n\nKey concepts include support and confidence. Frequent item sets are identified, and rules are generated.\n\nIt helps businesses improve marketing strategies."
+      },
+      {
+        "question": "Explain FP-growth algorithm.",
+        "answer": "FP-growth is an efficient method for mining frequent item sets without candidate generation. It builds a compact structure called FP-tree and extracts patterns recursively.\n\nIt is faster than Apriori for large datasets."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain clustering.",
+        "answer": "Clustering is an unsupervised technique that groups similar objects together. It helps in understanding data distribution and identifying patterns.\n\nUnlike classification, labels are not predefined. Clustering is used in customer segmentation and image analysis."
+      },
+      {
+        "question": "Explain K-means algorithm.",
+        "answer": "K-means partitions data into K clusters. It selects initial centroids and assigns points based on distance. Centroids are updated until convergence.\n\nIt is simple and efficient but sensitive to initial choice."
+      },
+      {
+        "question": "Explain DBSCAN.",
+        "answer": "DBSCAN groups points based on density. It can find arbitrary shapes and detect noise. However, it may struggle with varying densities.\n\nIt is powerful for spatial data analysis."
+      }
+    ]
+  }
+}

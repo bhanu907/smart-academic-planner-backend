@@ -1,0 +1,75 @@
+{
+  "subject": "OOAD",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain Object Oriented Analysis and Design.",
+        "answer": "Object Oriented Analysis and Design is a methodology used to analyze requirements and design systems using object-oriented principles. It focuses on identifying objects, their attributes, behaviors, and relationships. OOAD helps in building modular, reusable, and maintainable software systems.\n\nThe analysis phase concentrates on understanding problem domain and user needs. The design phase transforms these requirements into technical specifications. UML diagrams are widely used for representation.\n\nOOAD improves communication among stakeholders and reduces development risks. It supports scalability and easier maintenance."
+      },
+      {
+        "question": "Why do we model in OOAD?",
+        "answer": "Modeling helps visualize, specify, construct, and document artifacts of a system. It simplifies complex problems by creating abstractions. Models provide a blueprint for implementation and help detect issues early.\n\nThey also enhance collaboration and ensure consistent understanding."
+      },
+      {
+        "question": "Explain UML architecture.",
+        "answer": "UML provides a standard way to visualize system design. It includes structural diagrams like class diagrams and behavioral diagrams like sequence diagrams. UML supports multiple views, including logical, process, and deployment views.\n\nIt helps developers understand different aspects of a system."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain class diagram.",
+        "answer": "Class diagrams represent static structure of a system. They show classes, attributes, operations, and relationships such as association, inheritance, and aggregation.\n\nThey are fundamental in object-oriented design and provide clear understanding of system components."
+      },
+      {
+        "question": "Explain object diagram.",
+        "answer": "Object diagrams are instances of class diagrams. They show specific objects and their relationships at a particular moment. They are useful for understanding runtime behavior."
+      },
+      {
+        "question": "Explain relationships in UML.",
+        "answer": "Relationships define how classes interact. Association represents connection. Aggregation indicates whole-part. Composition is strong ownership. Inheritance shows specialization.\n\nThese relationships help in structuring systems effectively."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain use case diagram.",
+        "answer": "Use case diagrams describe system functionality from user perspective. Actors represent external users, while use cases show services provided. Relationships include include, extend, and generalization.\n\nThey are useful in requirement gathering."
+      },
+      {
+        "question": "Explain activity diagram.",
+        "answer": "Activity diagrams represent workflows. They show sequence of actions, decisions, and parallel activities. They help in understanding business processes."
+      },
+      {
+        "question": "Explain interaction diagrams.",
+        "answer": "Interaction diagrams show communication between objects. Sequence diagrams focus on time order, while collaboration diagrams emphasize relationships.\n\nThey are useful in understanding dynamic behavior."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain state machine.",
+        "answer": "State machines describe different states of an object and transitions based on events. They help model reactive systems. Each transition occurs due to triggers and actions.\n\nState charts are widely used in embedded and real-time systems."
+      },
+      {
+        "question": "Explain processes and threads.",
+        "answer": "A process is an independent program in execution. Threads are smaller units within processes that share resources. Multithreading improves performance and responsiveness."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain component diagram.",
+        "answer": "Component diagrams show organization of physical components such as libraries and executables. They represent dependencies and interfaces.\n\nThey help understand system architecture."
+      },
+      {
+        "question": "Explain deployment diagram.",
+        "answer": "Deployment diagrams illustrate physical arrangement of hardware and software. Nodes represent devices, and connections show communication.\n\nThey are important for distributed systems."
+      },
+      {
+        "question": "Explain unified library case study.",
+        "answer": "The unified library application demonstrates how UML diagrams work together. Use cases capture requirements. Class diagrams model structure. Interaction diagrams show communication. Deployment diagrams represent runtime environment.\n\nThe case study highlights practical application of OOAD principles."
+      }
+    ]
+  }
+}

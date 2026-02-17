@@ -1,0 +1,75 @@
+{
+  "subject": "P&S",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain measures of central tendency.",
+        "answer": "Measures of central tendency represent the central or typical value of a dataset. They provide a summary of the data and help in understanding its general behavior. The most common measures are mean, median, and mode.\n\nThe mean is the arithmetic average obtained by dividing the sum of all observations by the number of observations. It is widely used because it includes all values. However, it is affected by extreme values.\n\nThe median is the middle value when data is arranged in order. It is useful when data contains outliers because it is not influenced by extreme observations.\n\nThe mode is the most frequently occurring value. It is particularly useful for categorical data.\n\nThese measures are essential in data science for summarizing datasets before deeper analysis."
+      },
+      {
+        "question": "Explain measures of variability.",
+        "answer": "Measures of variability describe how spread out data values are. While central tendency shows the center, variability shows dispersion. Important measures include range, variance, and standard deviation.\n\nRange is the difference between highest and lowest values. Variance measures average squared deviation from the mean. Standard deviation is square root of variance and is widely used.\n\nLow variability means data is consistent. High variability indicates diversity. These measures are critical in risk analysis and decision making."
+      },
+      {
+        "question": "Explain skewness and kurtosis.",
+        "answer": "Skewness measures asymmetry of a distribution. If tail is longer on right, it is positively skewed; on left, negatively skewed. Kurtosis measures peakedness. High kurtosis indicates sharp peak; low kurtosis shows flat distribution.\n\nThese measures help understand data shape and are useful in modeling."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain correlation coefficient.",
+        "answer": "Correlation measures strength and direction of relationship between variables. The coefficient ranges from -1 to +1. Positive values indicate direct relationship, negative indicate inverse.\n\nIf value is near zero, there is weak or no relationship. Correlation does not imply causation but helps in prediction and modeling."
+      },
+      {
+        "question": "Explain regression.",
+        "answer": "Regression analysis establishes relationship between dependent and independent variables. It is used for prediction. The regression line is obtained using least squares method.\n\nSimple regression uses one predictor, while multiple regression uses several. Regression is widely used in forecasting and analytics."
+      },
+      {
+        "question": "Explain method of least squares.",
+        "answer": "The method of least squares finds best fitting curve by minimizing sum of squared errors between observed and predicted values. It ensures optimal approximation.\n\nIt is commonly used to fit straight lines and curves."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain random variables.",
+        "answer": "A random variable is a function that assigns numerical value to outcomes of an experiment. They can be discrete or continuous. Discrete variables take countable values, while continuous take infinite values in intervals.\n\nThey are described by probability distributions."
+      },
+      {
+        "question": "Explain Baye’s theorem.",
+        "answer": "Baye’s theorem provides a way to update probability when new information becomes available. It relates conditional probabilities and is widely used in machine learning and diagnostics."
+      },
+      {
+        "question": "Explain normal distribution.",
+        "answer": "Normal distribution is symmetric and bell shaped. Mean, median, and mode are equal. Many natural phenomena follow normal distribution. It is central to hypothesis testing and inference."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain central limit theorem.",
+        "answer": "The central limit theorem states that sampling distribution of the mean approaches normal distribution as sample size increases, regardless of population distribution.\n\nThis theorem is fundamental in statistics and allows use of normal theory methods."
+      },
+      {
+        "question": "Explain point and interval estimation.",
+        "answer": "Point estimation provides single value estimate of parameter. Interval estimation gives range within which parameter lies with certain confidence.\n\nGood estimators should be unbiased, consistent, and efficient."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain hypothesis testing.",
+        "answer": "Hypothesis testing is a statistical method to make decisions using data. Null hypothesis represents default assumption, while alternative represents claim.\n\nBased on test statistics, we decide whether to reject null. Significance level controls probability of error."
+      },
+      {
+        "question": "Explain Z test and t test.",
+        "answer": "Z test is used for large samples when variance is known. t test is used for small samples when variance is unknown. Both determine whether means differ significantly."
+      },
+      {
+        "question": "Explain chi-square test.",
+        "answer": "Chi-square test measures association between categorical variables or goodness of fit. It compares observed and expected frequencies."
+      }
+    ]
+  }
+}

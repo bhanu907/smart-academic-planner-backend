@@ -1,0 +1,79 @@
+{
+  "subject": "DAA",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Define an algorithm and explain asymptotic notations.",
+        "answer": "An algorithm is a finite sequence of well-defined instructions used to solve a problem or perform a computation. It takes input, processes it through a series of steps, and produces output. A good algorithm must be correct, efficient, and easy to understand. Algorithms are independent of programming languages and focus purely on logic.\n\nTo compare algorithms, we study their performance in terms of time and space requirements. Exact measurement is difficult, so asymptotic notations are used. These notations describe how running time grows as input size increases.\n\nBig-O notation represents the upper bound of complexity. It describes the worst-case scenario. Omega notation gives the lower bound or best case. Theta notation provides a tight bound when upper and lower are equal.\n\nUsing asymptotic analysis helps in selecting efficient algorithms, especially when handling large data. It ignores constant factors and focuses on growth rate, making comparison easier."
+      },
+      {
+        "question": "Explain divide and conquer with Quick Sort.",
+        "answer": "Divide and conquer is a powerful algorithm design strategy. It divides a problem into smaller subproblems, solves them independently, and combines results. This approach simplifies complex tasks and often improves efficiency.\n\nQuick Sort is a classic example. It selects a pivot element and partitions the array into two parts: elements smaller than pivot and elements greater than pivot. Then the same process is applied recursively to each part.\n\nThe effectiveness of Quick Sort depends on pivot choice. In average cases, it performs very efficiently with O(n log n) time complexity. However, worst case can be O(n^2).\n\nQuick Sort is popular due to its simplicity, speed, and in-place sorting ability."
+      },
+      {
+        "question": "Explain binary search.",
+        "answer": "Binary search is an efficient searching technique used on sorted arrays. Instead of checking each element, it repeatedly divides the search interval into halves.\n\nFirst, it compares the target value with the middle element. If equal, search is successful. If smaller, it continues in the left half; otherwise, in the right half.\n\nThis halving continues until the element is found or interval becomes empty. Binary search has time complexity O(log n), which is much faster than linear search.\n\nIt is widely used in databases and information retrieval systems."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain the greedy method.",
+        "answer": "The greedy method is an approach where decisions are made step by step, always choosing the locally optimal solution in the hope of finding a global optimum. Once a choice is made, it is never reconsidered.\n\nThis method is simple and efficient for problems where greedy choice property holds. However, it may not always produce the best solution for all problems.\n\nExamples include minimum spanning trees, shortest path problems, and scheduling tasks. The advantage of greedy algorithms is reduced computation and easy implementation."
+      },
+      {
+        "question": "Explain the knapsack problem using greedy approach.",
+        "answer": "In the fractional knapsack problem, items with given weights and profits must be selected to maximize profit without exceeding capacity. The greedy strategy selects items based on highest profit-to-weight ratio.\n\nItems are added fully or partially until capacity is reached. This approach guarantees optimal solution for fractional case.\n\nThe algorithm is efficient and widely used in resource allocation."
+      },
+      {
+        "question": "Explain job sequencing with deadlines.",
+        "answer": "In this problem, jobs with deadlines and profits must be scheduled to maximize total profit. Only one job can be processed at a time.\n\nThe greedy approach selects jobs in decreasing order of profit and assigns them to the latest available slot before deadline. This ensures maximum utilization of time and profit.\n\nIt is an important scheduling technique in operating systems and management."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain dynamic programming.",
+        "answer": "Dynamic programming is a technique used to solve problems with overlapping subproblems and optimal substructure. Instead of solving repeatedly, results are stored and reused.\n\nIt can be implemented using memoization or tabulation. This reduces computation time significantly.\n\nDynamic programming is widely used in optimization problems such as shortest paths, knapsack, and matrix chain multiplication."
+      },
+      {
+        "question": "Explain 0/1 knapsack problem.",
+        "answer": "In 0/1 knapsack, each item can either be selected or not. The goal is to maximize profit within capacity constraints. Unlike fractional version, items cannot be divided.\n\nDynamic programming builds a table where each entry represents maximum profit for given capacity and items considered.\n\nThis method ensures optimal solution though it requires more computation."
+      },
+      {
+        "question": "Explain traveling salesperson problem.",
+        "answer": "The traveling salesperson problem requires finding the shortest route that visits each city exactly once and returns to origin. It is computationally complex.\n\nDynamic programming can reduce possibilities but still expensive. It is widely studied in optimization and logistics."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain backtracking.",
+        "answer": "Backtracking is a method for solving problems incrementally. If a partial solution cannot lead to a valid result, it is abandoned and the algorithm goes back to try alternatives.\n\nThis approach is systematic and ensures all possibilities are explored efficiently.\n\nIt is widely used in puzzles, constraint satisfaction, and combinatorial problems."
+      },
+      {
+        "question": "Explain N-Queens problem.",
+        "answer": "The N-Queens problem involves placing N queens on a chessboard so that no two queens attack each other. Backtracking places queens one by one and checks constraints.\n\nIf conflict occurs, it backtracks. This method efficiently prunes invalid solutions."
+      },
+      {
+        "question": "Explain graph coloring.",
+        "answer": "Graph coloring assigns colors to vertices so that adjacent vertices differ. Backtracking tries colors sequentially and reverts when conflict arises.\n\nIt is useful in scheduling and register allocation."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain branch and bound.",
+        "answer": "Branch and bound is an optimization technique used to solve combinatorial problems. It systematically explores solution space while eliminating paths that cannot produce better results.\n\nBounding functions estimate best possible outcome. If bound is worse than current best, branch is pruned.\n\nThis approach reduces computation compared to exhaustive search."
+      },
+      {
+        "question": "Explain FIFO branch and bound.",
+        "answer": "FIFO branch and bound uses a queue to explore nodes in breadth-first order. It ensures systematic exploration but may require more memory.\n\nIt is simple and suitable for certain optimization problems."
+      },
+      {
+        "question": "Explain LC branch and bound.",
+        "answer": "Least Cost branch and bound selects the node with minimum cost estimate for expansion. It often reaches optimal solution faster.\n\nIt is widely used in TSP and knapsack variations."
+      }
+    ]
+  }
+}

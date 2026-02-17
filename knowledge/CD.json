@@ -1,0 +1,55 @@
+{
+  "subject": "CD",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain the role of a compiler and the phases of compilation.",
+        "answer": "A compiler is a system software that translates a high-level programming language into machine-level code so that it can be executed by a computer. The process of translation is complex and requires multiple stages to analyze and transform the source program correctly. Compilers are essential because computers understand only binary instructions, while programmers prefer human-readable languages.\n\nThe compilation process is divided into several phases. The first phase is lexical analysis, where the source code is scanned and converted into tokens. Tokens represent keywords, identifiers, operators, and constants. This phase removes comments and unnecessary white spaces.\n\nThe next phase is syntax analysis or parsing. Here, tokens are arranged according to grammatical rules to form a parse tree. This ensures the program follows correct language structure.\n\nSemantic analysis follows, where meaning is verified. It checks type compatibility, undeclared variables, and scope rules. Errors detected here prevent incorrect execution later.\n\nAfter semantic checking, intermediate code is generated. This representation is machine independent and makes optimization easier.\n\nCode optimization improves efficiency by eliminating redundant operations and improving resource usage.\n\nFinally, code generation translates optimized intermediate code into target machine instructions. Symbol tables and error handling operate throughout all phases.\n\nTogether, these phases ensure accurate, efficient, and reliable translation of programs."
+      },
+      {
+        "question": "Explain lexical analysis and the role of a scanner.",
+        "answer": "Lexical analysis is the first phase of a compiler. It reads the source program character by character and groups them into meaningful sequences called tokens. These tokens are passed to the syntax analyzer for further processing.\n\nThe scanner identifies keywords, identifiers, literals, operators, and punctuation symbols. It removes comments and extra spaces, making later stages simpler. Lexical analysis improves efficiency by handling low-level details early.\n\nIt also creates entries in the symbol table for identifiers. If invalid patterns are found, lexical errors are reported.\n\nTechniques such as regular expressions and finite automata are commonly used in designing scanners. Tools like Lex automate this process.\n\nBy converting raw input into structured tokens, lexical analysis forms the foundation for the entire compilation process."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain top-down parsing.",
+        "answer": "Top-down parsing is a technique used by syntax analyzers to build parse trees from the root toward the leaves. It attempts to derive the input string by starting from the start symbol and applying production rules.\n\nThe most common form is recursive descent parsing. Each non-terminal is represented by a function that tries to match input tokens. Predictive parsing is an advanced method that avoids backtracking by using lookahead symbols.\n\nTo enable predictive parsing, grammars must be left factored and free from left recursion. Parsing tables are constructed to decide which rule to apply.\n\nTop-down parsing is easy to implement and understand. However, it may not work well for complex grammars.\n\nDespite limitations, it is widely used in many compilers due to its simplicity."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain bottom-up parsing.",
+        "answer": "Bottom-up parsing builds the parse tree from leaves toward the root. It starts with the input string and reduces it step by step until the start symbol is reached. This process is also called shift-reduce parsing.\n\nThe parser shifts input symbols onto a stack and reduces sequences using grammar rules. LR parsing is a powerful bottom-up technique.\n\nBottom-up parsers can handle a larger class of grammars compared to top-down methods. They are widely used in compiler construction.\n\nAlthough more complex, they provide better error detection and recovery."
+      },
+      {
+        "question": "Explain semantic analysis.",
+        "answer": "Semantic analysis ensures that the program is meaningful beyond grammatical correctness. It verifies type compatibility, variable declarations, and scope rules.\n\nThe compiler checks whether operations are applied to correct data types. It also ensures that functions are called with appropriate parameters.\n\nSymbol tables play a major role in storing information about identifiers. Semantic errors are reported before code generation.\n\nThis phase ensures reliability and prevents runtime failures."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain intermediate code generation.",
+        "answer": "Intermediate code generation produces a machine-independent representation of the program. This form bridges the gap between source code and target code.\n\nCommon representations include three-address code and syntax trees. Intermediate code allows optimization without worrying about hardware details.\n\nIt simplifies portability and improves maintainability of compilers."
+      },
+      {
+        "question": "Explain run-time environments.",
+        "answer": "The run-time environment manages memory and resources during program execution. It includes storage allocation, stack management, and parameter passing.\n\nActivation records store information about function calls. Efficient management ensures proper execution and error handling."
+      },
+      {
+        "question": "Explain code generation.",
+        "answer": "Code generation converts intermediate representation into machine instructions. It involves instruction selection, register allocation, and addressing modes.\n\nThe goal is to produce efficient code that executes correctly on the target architecture."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain optimization techniques.",
+        "answer": "Code optimization improves program efficiency by reducing execution time and memory usage. It removes redundant computations and simplifies expressions.\n\nTechniques include constant folding, dead code elimination, loop optimization, and common subexpression elimination.\n\nOptimization can be machine independent or dependent. The challenge is to improve performance without changing program meaning.\n\nEffective optimization leads to faster and more efficient software."
+      }
+    ]
+  }
+}

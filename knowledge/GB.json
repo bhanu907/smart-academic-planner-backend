@@ -1,0 +1,79 @@
+{
+  "subject": "GB",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "What are Green Buildings? Explain in the Indian context.",
+        "answer": "Green buildings are structures that are designed, constructed, and operated to reduce negative impacts on the environment while improving the health and comfort of occupants. In the Indian context, green buildings focus on reducing energy consumption, conserving water, using eco-friendly materials, and adapting to local climate conditions.\n\nIndia faces challenges such as rapid urbanization, energy shortages, and environmental degradation. Green building practices help address these issues by promoting sustainable construction techniques, renewable energy use, and efficient waste management.\n\nOrganizations such as IGBC and GRIHA promote rating systems that encourage builders to adopt environmentally responsible practices. Green buildings ultimately reduce operating costs and create healthier living spaces."
+      },
+      {
+        "question": "Explain energy efficiency and pollution control in buildings.",
+        "answer": "Energy efficiency in buildings refers to using less energy to perform the same function, such as lighting, heating, and cooling. Efficient appliances, proper insulation, and smart design reduce energy demand. This leads to lower electricity bills and reduced dependence on fossil fuels.\n\nPollution control is achieved by minimizing emissions from building operations. Using renewable energy, natural ventilation, and sustainable materials reduces air and water pollution. Waste management practices also contribute to environmental protection.\n\nBy improving energy efficiency, buildings help in reducing greenhouse gas emissions and support sustainable development."
+      },
+      {
+        "question": "What is low energy design?",
+        "answer": "Low energy design focuses on reducing the energy requirements of a building by using climate-responsive architecture. Instead of relying heavily on mechanical systems, buildings are designed to maximize natural light, ventilation, and thermal comfort.\n\nThis includes proper orientation, shading devices, insulation, and efficient windows. Low energy design reduces the need for artificial heating and cooling, thereby lowering operating costs and environmental impact."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain renewable energy sources used in green buildings.",
+        "answer": "Renewable energy sources are naturally replenished and cause minimal environmental damage. In green buildings, solar energy is the most widely used source. Solar panels convert sunlight into electricity, while solar thermal systems provide hot water.\n\nWind energy can also be utilized where conditions are suitable. Other renewables include biomass and small hydro systems. Using renewable energy reduces dependence on fossil fuels, lowers emissions, and improves energy security.\n\nThese sources make buildings more sustainable and economical in the long run."
+      },
+      {
+        "question": "What is passive solar heating and collection?",
+        "answer": "Passive solar heating is a technique that uses building design to collect, store, and distribute solar energy without mechanical equipment. Large south-facing windows, thermal mass materials, and proper insulation are commonly used.\n\nPassive solar collection captures heat during the day and releases it slowly at night, maintaining comfortable indoor temperatures. This method reduces the need for artificial heating systems and saves energy."
+      },
+      {
+        "question": "Explain rainwater harvesting and the influence of climate.",
+        "answer": "Rainwater harvesting involves collecting and storing rainwater from rooftops or open areas for future use. This water can be used for gardening, flushing toilets, and sometimes for drinking after treatment.\n\nClimate plays an important role in green building design. Macroclimate refers to regional climate patterns, while microclimate focuses on local conditions such as shading and wind direction. Understanding climate helps in designing buildings that maximize natural resources and reduce energy consumption."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "How does building form affect energy performance?",
+        "answer": "Building form significantly influences heat gain and loss. A compact structure with reduced surface area minimizes exposure to external temperatures, improving energy efficiency.\n\nOrientation, shape, and layout affect natural lighting and ventilation. Properly designed buildings can reduce dependency on artificial heating and cooling systems, leading to energy savings."
+      },
+      {
+        "question": "Explain the importance of windows, walls, and materials.",
+        "answer": "Windows and doors control the entry of light and air. Energy-efficient glazing reduces heat transfer. Walls and floors provide insulation and affect thermal comfort.\n\nUsing sustainable materials such as eco-friendly masonry and recycled products reduces environmental impact. The thermal properties of materials determine how heat is stored and released, influencing indoor temperature."
+      },
+      {
+        "question": "What is meant by utilizing natural energy?",
+        "answer": "Utilizing natural energy means taking advantage of sunlight, wind, and temperature variations to maintain comfort within buildings. Techniques include daylighting, cross ventilation, and thermal mass.\n\nBy depending on natural sources, energy consumption from mechanical systems is minimized, resulting in cost and environmental benefits."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain natural ventilation and passive cooling.",
+        "answer": "Natural ventilation uses wind and temperature differences to circulate air inside a building. It improves indoor air quality and reduces the need for air conditioning.\n\nPassive cooling methods include shading, reflective surfaces, evaporative cooling, and proper orientation. These techniques help maintain comfortable temperatures while saving energy."
+      },
+      {
+        "question": "What are daylight factors and artificial lighting?",
+        "answer": "Daylight factor measures the amount of natural light available indoors compared to the outside. Proper daylighting reduces electricity consumption and improves occupant well-being.\n\nArtificial lighting systems such as LEDs provide efficient alternatives when natural light is insufficient. Modern lighting design focuses on energy savings and visual comfort."
+      },
+      {
+        "question": "Explain water conservation techniques in buildings.",
+        "answer": "Water conservation is achieved through efficient fixtures such as low-flow taps, toilets, and urinals. Recycling greywater and using rainwater harvesting systems further reduce freshwater demand.\n\nInnovative technologies ensure sustainable water management, especially in urban areas facing shortages."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "What is building environmental assessment?",
+        "answer": "Building environmental assessment evaluates the environmental performance of a building throughout its life cycle. It considers energy use, water efficiency, material selection, and indoor environmental quality.\n\nRating systems such as LEED, GRIHA, and IGBC provide standards and certifications that encourage sustainable practices."
+      },
+      {
+        "question": "Explain the principles of sustainable architecture.",
+        "answer": "Sustainable architecture focuses on minimizing environmental impact while maximizing occupant comfort. It promotes energy efficiency, renewable energy use, waste reduction, and harmony with nature.\n\nDesign strategies include climate-responsive planning, use of local materials, and efficient resource management."
+      },
+      {
+        "question": "Discuss the benefits of green buildings.",
+        "answer": "Green buildings offer multiple benefits including reduced energy and water consumption, lower operating costs, and improved indoor air quality. They enhance occupant health and productivity.\n\nEnvironmentally, they reduce pollution, conserve resources, and support sustainable urban development."
+      }
+    ]
+  }
+}

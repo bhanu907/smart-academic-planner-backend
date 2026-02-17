@@ -1,0 +1,79 @@
+{
+  "subject": "COA",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain the basic structure and functional units of a computer.",
+        "answer": "A computer system is designed to process data and convert it into meaningful information. The basic structure of a computer consists of several functional units that work together to execute programs efficiently. These units include the input unit, memory unit, arithmetic logic unit, control unit, and output unit.\n\nThe input unit is responsible for accepting data and instructions from the user. The memory unit stores both instructions and data that are required during execution. The arithmetic logic unit, commonly known as ALU, performs arithmetic operations such as addition and subtraction, as well as logical operations like AND, OR, and comparisons.\n\nThe control unit coordinates the activities of all components. It fetches instructions from memory, decodes them, and directs the appropriate units to perform operations. The output unit presents processed results to the user.\n\nThese components are interconnected using buses that carry data, addresses, and control signals. Proper coordination among these units ensures smooth functioning of the system. Understanding the basic structure is essential for learning advanced topics in computer architecture."
+      },
+      {
+        "question": "Explain number representation in computers.",
+        "answer": "Computers represent numbers in binary form. There are two main types of number representation: fixed point and floating point. In fixed point representation, the position of the decimal or binary point is fixed. It is simple and fast but has limited range and precision.\n\nFloating point representation is used to represent very large or very small numbers. It consists of three parts: sign, exponent, and mantissa. The exponent determines the scale, while the mantissa holds significant digits.\n\nFloating point allows greater flexibility and accuracy but requires more hardware and processing time. It is widely used in scientific and engineering calculations."
+      },
+      {
+        "question": "Explain instruction types and sequencing.",
+        "answer": "Instructions tell the computer what operations to perform. Basic instruction types include data transfer, arithmetic, logical, and control instructions. Data transfer moves information between registers and memory. Arithmetic instructions perform calculations. Logical instructions compare or manipulate bits.\n\nInstruction sequencing ensures that instructions are executed in the correct order. Normally, execution proceeds sequentially, but branch instructions may alter flow. Register Transfer Notation is used to describe operations at hardware level.\n\nProper sequencing is vital for correct program execution."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain addressing modes.",
+        "answer": "Addressing modes specify how operands are located in memory or registers. They provide flexibility and reduce instruction size. Common addressing modes include immediate, direct, indirect, register, and indexed.\n\nIn immediate mode, the operand is part of the instruction itself. Direct mode specifies the memory address explicitly. Indirect mode uses a register or memory location to store the address of the operand.\n\nRegister mode uses CPU registers for faster access. Indexed mode is useful for arrays and loops.\n\nUnderstanding addressing modes is crucial for efficient programming and system design."
+      },
+      {
+        "question": "Explain arithmetic, logic, and branch instructions.",
+        "answer": "Arithmetic instructions perform operations such as addition, subtraction, multiplication, and division. Logic instructions include AND, OR, XOR, and NOT, which manipulate bits.\n\nBranch instructions change execution order. They are used in loops, conditions, and function calls. Conditional branches depend on flags like zero or carry.\n\nThese instructions form the foundation of program execution."
+      },
+      {
+        "question": "Explain the role of stack in programming.",
+        "answer": "A stack is a data structure that follows Last-In-First-Out principle. It is widely used for function calls, parameter passing, and return addresses.\n\nPush operation adds data, while pop removes it. Stacks help manage program control efficiently and support recursion."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain the building blocks of ALU.",
+        "answer": "The Arithmetic Logic Unit is responsible for performing mathematical and logical operations. Its building blocks include adders, subtractors, shifters, and multipliers.\n\nAdders combine binary numbers, while subtractors handle differences. Shifters move bits left or right for multiplication or division by powers of two. Multiplication and division circuits perform complex arithmetic.\n\nThese components work together to enable efficient computation."
+      },
+      {
+        "question": "Explain interrupts and DMA.",
+        "answer": "Interrupts are signals that temporarily halt CPU execution to handle urgent tasks. They improve efficiency by allowing devices to request attention only when necessary.\n\nDMA allows devices to transfer data directly to memory without CPU involvement. This speeds up operations and reduces processor load."
+      },
+      {
+        "question": "Explain synchronous and asynchronous buses.",
+        "answer": "Buses are communication pathways connecting components. In synchronous buses, data transfer is controlled by a clock signal. They are fast and simple.\n\nAsynchronous buses do not rely on a clock. Instead, they use handshaking signals. They offer flexibility but may be slower."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain cache memory and mapping techniques.",
+        "answer": "Cache memory is a small, fast memory placed between CPU and main memory. It stores frequently used data to reduce access time.\n\nMapping techniques determine how memory blocks are placed in cache. Direct mapping assigns each block to a specific location. Associative mapping allows placement anywhere. Set-associative combines both.\n\nCache improves performance significantly."
+      },
+      {
+        "question": "Explain ROM types.",
+        "answer": "ROM stores permanent data. PROM can be programmed once. EPROM can be erased using ultraviolet light. EEPROM allows electrical erasing. Flash memory is a modern version with faster operations.\n\nThese are used in firmware and embedded systems."
+      },
+      {
+        "question": "Explain secondary storage.",
+        "answer": "Secondary storage provides long-term data retention. Magnetic disks and optical disks are common examples. They offer large capacity but slower speed compared to main memory."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain instruction execution cycle.",
+        "answer": "The instruction cycle consists of fetch, decode, and execute phases. In fetch, the instruction is read from memory. During decode, the control unit interprets it. In execute, the operation is performed.\n\nThis cycle repeats continuously and is fundamental to CPU operation."
+      },
+      {
+        "question": "Explain hardwired control.",
+        "answer": "Hardwired control uses fixed logic circuits to generate control signals. It is fast but difficult to modify. It is suitable for simple instruction sets."
+      },
+      {
+        "question": "Explain microprogrammed control.",
+        "answer": "Microprogrammed control uses a sequence of microinstructions stored in memory. It is flexible and easier to design. Changes can be made by updating microcode."
+      }
+    ]
+  }
+}

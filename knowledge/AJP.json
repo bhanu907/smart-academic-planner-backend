@@ -1,0 +1,79 @@
+{
+  "subject": "AJP",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain the Java Collections Framework.",
+        "answer": "The Java Collections Framework is a unified architecture for storing, manipulating, and retrieving groups of objects. It provides ready-made data structures and algorithms so that programmers do not need to implement them from scratch. The framework improves productivity and ensures high performance.\n\nThe core idea behind collections is to manage dynamic data efficiently. Instead of using arrays with fixed size, collections allow flexible storage. The framework includes interfaces, implementations, and algorithms. Important interfaces are List, Set, Queue, and Map. These interfaces define common methods such as add, remove, search, and iterate.\n\nThere are many concrete classes like ArrayList, LinkedList, HashSet, TreeSet, and PriorityQueue. Each has specific advantages depending on requirements such as ordering, uniqueness, or speed.\n\nThe framework also provides utility methods for sorting, searching, and synchronization. Because of its flexibility and reusability, the collections framework is widely used in real-world Java applications."
+      },
+      {
+        "question": "Explain ArrayList and LinkedList.",
+        "answer": "ArrayList and LinkedList are two commonly used implementations of the List interface. Both store elements in an ordered manner and allow duplicates, but they differ in internal structure and performance.\n\nArrayList is based on a dynamic array. It allows fast random access using indexes, which makes retrieving elements very efficient. However, inserting or deleting elements in the middle may be slower because other elements need to be shifted.\n\nLinkedList is implemented using nodes connected through links. Each node contains data and a reference to the next node. Insertions and deletions are faster because only links need to be changed. However, accessing elements by index is slower compared to ArrayList.\n\nChoosing between them depends on application requirements. If frequent searching is required, ArrayList is better. If frequent insertions or deletions occur, LinkedList is preferred."
+      },
+      {
+        "question": "Explain Iterator and Comparator.",
+        "answer": "Iterator is an interface used to traverse elements of a collection one by one. It provides methods such as hasNext(), next(), and remove(). Iterators make it easy to process collections without exposing internal structure.\n\nUsing iterators ensures safe removal of elements during traversal. Java also provides the for-each loop as a simplified alternative.\n\nComparator is used for custom sorting of objects. When natural ordering is not sufficient, programmers can define comparison logic. This helps arrange data according to specific needs such as alphabetical order or numerical priority.\n\nTogether, iterators and comparators enhance flexibility and usability of collections."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain basics of networking and java.net package.",
+        "answer": "Networking in Java allows communication between computers over a network. It enables data exchange for applications such as web browsing, file transfer, and email. Java provides extensive support for networking through the java.net package.\n\nImportant concepts include IP addresses, ports, protocols, and sockets. A socket represents an endpoint for communication. Java simplifies networking by offering classes such as URL, InetAddress, Socket, and ServerSocket.\n\nUsing these classes, developers can create client-server applications. Java networking supports both connection-oriented and connectionless communication.\n\nBecause of platform independence and built-in libraries, Java is widely used in distributed systems."
+      },
+      {
+        "question": "Explain JDBC connectivity.",
+        "answer": "JDBC stands for Java Database Connectivity. It is an API that allows Java programs to interact with databases. JDBC enables execution of SQL queries, retrieval of results, and modification of data.\n\nThere are different types of JDBC drivers, including Type 1, Type 2, Type 3, and Type 4. Type 4 drivers are most commonly used because they are pure Java.\n\nThe process of connecting involves loading the driver, establishing connection, creating statements, executing queries, and closing resources. JDBC provides classes such as Connection, Statement, PreparedStatement, and ResultSet.\n\nProper exception handling ensures reliable communication. JDBC is essential for enterprise applications."
+      },
+      {
+        "question": "Explain JDBC statements and exceptions.",
+        "answer": "JDBC provides different types of statements to execute SQL commands. Statement is used for simple queries. PreparedStatement is precompiled and more efficient, especially when executing multiple times. CallableStatement is used for stored procedures.\n\nExceptions may occur due to incorrect queries, network failures, or invalid data. JDBC throws SQLException, which contains detailed information. Handling exceptions helps maintain application stability."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain HTML forms and CSS.",
+        "answer": "HTML forms are used to collect input from users. They include elements such as text fields, radio buttons, check boxes, and submit buttons. Forms are essential for web applications that require user interaction.\n\nCascading Style Sheets (CSS) are used to control the presentation of HTML elements. CSS defines layout, colors, fonts, and spacing. It separates content from design, improving maintainability.\n\nTogether, HTML and CSS create interactive and visually appealing web pages."
+      },
+      {
+        "question": "Explain XML and its components.",
+        "answer": "XML stands for Extensible Markup Language and is used to store and transport data. It allows users to define their own tags, making it flexible and readable.\n\nImportant components include elements, attributes, Document Type Definition (DTD), and XML Schema. DTD and Schema define structure and validation rules.\n\nXML is widely used in web services and configuration files."
+      },
+      {
+        "question": "Explain DOM and SAX parsers.",
+        "answer": "DOM parser reads the entire XML document into memory and represents it as a tree. It allows easy navigation and modification. However, it consumes more memory.\n\nSAX parser works sequentially and triggers events while reading. It is faster and suitable for large files but does not allow backward navigation.\n\nBoth approaches are useful depending on application needs."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain the life cycle of a servlet.",
+        "answer": "A servlet is a server-side component used to handle client requests. Its life cycle consists of initialization, service, and destruction.\n\nDuring initialization, the init() method is called once. The service() method handles requests and generates responses. Finally, destroy() releases resources.\n\nUnderstanding the life cycle helps in efficient resource management and application design."
+      },
+      {
+        "question": "How are HTTP requests and responses handled?",
+        "answer": "Servlets use HttpServletRequest and HttpServletResponse objects to manage communication. Requests contain parameters, headers, and cookies. Responses send data back to clients.\n\nBy processing these objects, servlets can generate dynamic web content."
+      },
+      {
+        "question": "Explain cookies and sessions.",
+        "answer": "Cookies are small pieces of data stored on the client side. They help track users across requests. Sessions store data on the server and provide a secure way to maintain state.\n\nSession tracking is essential for login systems and shopping carts."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain JSP architecture and processing.",
+        "answer": "Java Server Pages (JSP) is a technology used to create dynamic web content. A JSP page is converted into a servlet by the container. This servlet is compiled and executed to generate responses.\n\nJSP simplifies development by allowing HTML and Java code together. It supports separation of presentation and logic.\n\nBecause of its simplicity, JSP is widely used in web applications."
+      },
+      {
+        "question": "Explain JSP elements and implicit objects.",
+        "answer": "JSP provides declarations, directives, expressions, and scriptlets to embed Java code. Implicit objects such as request, response, session, and application are automatically available.\n\nThese features help developers manage data and control flow efficiently."
+      },
+      {
+        "question": "How is session tracking done in JSP?",
+        "answer": "Session tracking in JSP is achieved using cookies, URL rewriting, or session objects. The session object stores user-specific information across multiple requests.\n\nThis is crucial for maintaining login states and personalized experiences."
+      }
+    ]
+  }
+}

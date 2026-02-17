@@ -1,0 +1,79 @@
+{
+  "subject": "C Programming",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain the structure of a C program.",
+        "answer": "A C program is organized into different sections to make it readable and maintainable. The basic structure usually includes documentation section, link section, definition section, global declaration section, main function, and user defined functions.\n\nThe documentation section contains comments that describe the program. The link section includes header files required for standard functions. The definition section defines constants using macros.\n\nThe main function is the starting point of execution. It contains variable declarations, executable statements, input-output operations, and function calls. User defined functions are written outside the main function and are called whenever required.\n\nProper structure improves modularity and debugging. It also helps in dividing complex problems into smaller parts."
+      },
+      {
+        "question": "Explain variables, constants and data types in C.",
+        "answer": "Variables are named memory locations used to store data. Each variable has a type that determines what kind of data it can hold. Common data types include int, float, double, and char.\n\nConstants are fixed values that do not change during program execution. They can be numeric or character constants. The const keyword is used to declare them.\n\nChoosing proper data types ensures efficient memory usage and correct computation."
+      },
+      {
+        "question": "Explain command line arguments.",
+        "answer": "Command line arguments allow passing information to a program at the time of execution. They are received by main function using parameters argc and argv. argc represents number of arguments, while argv is an array of strings.\n\nThey are useful in flexible program design."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain bitwise operators.",
+        "answer": "Bitwise operators perform operations on individual bits of integers. They include AND, OR, XOR, NOT, left shift, and right shift. These operators are useful in low-level programming, device control, and optimization.\n\nFor example, bitwise AND can mask specific bits, while shift operators multiply or divide numbers by powers of two."
+      },
+      {
+        "question": "Explain selection statements in C.",
+        "answer": "Selection statements allow decision making in programs. The if statement executes code when condition is true. The if-else statement chooses between two alternatives. Switch is used for multiple choices.\n\nThese statements control program flow and make logic dynamic."
+      },
+      {
+        "question": "Explain loops in C.",
+        "answer": "Loops are used to repeat a block of code. Pretest loops such as while and for check condition before execution. Post-test loop do-while executes at least once.\n\nLoops may be event-controlled or counter-controlled. They are widely used in computations, searching, and repetitive tasks."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain arrays in C.",
+        "answer": "An array is a collection of elements of same type stored in contiguous memory. Arrays are useful for storing large datasets. Elements are accessed using index.\n\nC supports one-dimensional and multidimensional arrays. They are widely used in matrix operations and statistics."
+      },
+      {
+        "question": "Explain strings in C.",
+        "answer": "A string is an array of characters ending with null character. C provides functions such as strlen, strcpy, and strcmp for manipulation.\n\nStrings are essential for text processing."
+      },
+      {
+        "question": "Explain structures and unions.",
+        "answer": "Structures group different data types under one name. Each member has separate memory. Unions also group data but share memory, so only one member is active at a time.\n\nThey are used in complex data representation."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain pointers.",
+        "answer": "Pointers are variables that store addresses of other variables. They provide powerful ways to access memory. Using pointers, we can modify data indirectly and pass large structures efficiently.\n\nPointers are essential for dynamic memory allocation and advanced data structures."
+      },
+      {
+        "question": "Explain pointer arithmetic.",
+        "answer": "Pointer arithmetic allows movement through memory by incrementing or decrementing addresses. It is commonly used with arrays.\n\nProper use ensures efficient traversal."
+      },
+      {
+        "question": "Explain dynamic memory allocation.",
+        "answer": "Dynamic memory allocation is performed during runtime using functions like malloc, calloc, and free. It allows flexible memory usage and avoids wastage."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain functions in C.",
+        "answer": "Functions are blocks of code designed to perform specific tasks. They promote modularity and reuse. Functions can accept parameters and return values.\n\nThey help in dividing programs into manageable units."
+      },
+      {
+        "question": "Explain recursion.",
+        "answer": "Recursion occurs when a function calls itself. It is useful for problems that can be divided into smaller subproblems such as factorial and tree traversal.\n\nHowever, it must have termination condition."
+      },
+      {
+        "question": "Explain file handling in C.",
+        "answer": "File handling allows storing data permanently. C provides functions like fopen, fclose, fprintf, fscanf. Files may be text or binary.\n\nIt is important for database and reporting applications."
+      }
+    ]
+  }
+}

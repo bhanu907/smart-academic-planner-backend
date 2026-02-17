@@ -1,0 +1,79 @@
+{
+  "subject": "Python Programming",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain the program development cycle.",
+        "answer": "The program development cycle is a systematic process used to create reliable software. It includes several steps such as problem definition, design, coding, testing, debugging, and maintenance.\n\nIn the problem definition stage, the programmer understands requirements and objectives. During design, algorithms and flowcharts are prepared. Coding converts design into a program using a programming language such as Python.\n\nTesting verifies correctness, while debugging removes errors. Maintenance ensures the program remains useful over time. Following this cycle improves quality and reduces mistakes."
+      },
+      {
+        "question": "Explain variables, input, output and operators in Python.",
+        "answer": "Variables in Python are used to store data values. They are created when assigned. Python supports numeric, string, and boolean types. Input is taken using input() function, while output is displayed using print().\n\nOperators perform computations. Arithmetic operators include addition and subtraction. Comparison operators check relations, and logical operators combine conditions.\n\nThese elements form the foundation of Python programming."
+      },
+      {
+        "question": "Explain decision and repetition structures.",
+        "answer": "Decision structures allow execution of statements based on conditions. Python uses if, if-else, and if-elif-else. Nested decisions are also possible.\n\nRepetition structures include while and for loops. They repeat instructions until conditions are met. Loops are essential for automation and calculations."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain strings in Python.",
+        "answer": "Strings are sequences of characters. They are used for text processing. Python allows accessing individual characters using indexing and slicing.\n\nString methods such as upper, lower, replace, and split help manipulate text. Strings are immutable, meaning they cannot be changed after creation."
+      },
+      {
+        "question": "Explain text file handling.",
+        "answer": "Text files store information permanently. Python uses open() function to access files. Modes include read, write, and append.\n\nFiles are closed using close() to release resources. File handling is essential for applications involving data storage."
+      },
+      {
+        "question": "Explain loops and control statements.",
+        "answer": "Control statements guide program execution. for loop is used for definite iteration, while while loop works based on condition. Break and continue alter loop behavior.\n\nThey make programs flexible."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain lists and dictionaries.",
+        "answer": "Lists are ordered collections of elements. They are mutable and allow indexing. Methods such as append and remove are used to modify lists.\n\nDictionaries store data in key-value pairs. They allow fast retrieval. These structures are widely used in data processing."
+      },
+      {
+        "question": "Explain functions and top-down design.",
+        "answer": "Functions are reusable blocks of code. They reduce duplication and improve readability. Top-down design divides complex problems into smaller tasks implemented as functions.\n\nThis approach simplifies development and testing."
+      },
+      {
+        "question": "Explain modules and packages.",
+        "answer": "Modules are files containing Python code. They promote reuse. Packages are collections of modules organized in directories.\n\nUsing modules makes large programs manageable."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain file operations in Python.",
+        "answer": "Python provides several functions for file operations. read() reads entire file, readline() reads one line, and readlines() returns list of lines. Writing is done using write() and writelines().\n\nseek() moves file pointer. These operations help in managing stored information."
+      },
+      {
+        "question": "Explain object oriented programming in Python.",
+        "answer": "Object oriented programming organizes software using classes and objects. A class defines properties and behaviors, while objects are instances. Constructors initialize data.\n\nInheritance allows reuse, and polymorphism enables flexibility. OOP improves modularity and maintainability."
+      },
+      {
+        "question": "Explain inheritance and polymorphism.",
+        "answer": "Inheritance allows new classes to acquire properties of existing ones. Polymorphism enables same function name to behave differently.\n\nThese features support extensibility."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain exceptions in Python.",
+        "answer": "Exceptions are errors that occur during execution. Python handles them using try, except, else, and finally blocks. Handling exceptions prevents program crash and ensures graceful recovery.\n\nUsers can also define custom exceptions."
+      },
+      {
+        "question": "Explain graphical user interfaces.",
+        "answer": "GUI programs allow users to interact visually through windows, buttons, and menus. Libraries such as Tkinter help create interfaces.\n\nGUI improves usability compared to command-line programs."
+      },
+      {
+        "question": "Explain Scratch programming.",
+        "answer": "Scratch is a visual programming language designed for beginners. It uses blocks instead of text. It helps understand logic, loops, and events easily.\n\nIt is useful for learning programming fundamentals."
+      }
+    ]
+  }
+}

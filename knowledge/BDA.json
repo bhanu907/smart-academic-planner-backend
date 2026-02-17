@@ -1,0 +1,79 @@
+{
+  "subject": "BDA",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "What is Big Data? Explain the characteristics of Big Data.",
+        "answer": "Big Data refers to extremely large and complex datasets that cannot be processed using traditional data management tools. These datasets are generated from various sources such as social media platforms, sensors, banking transactions, online shopping systems, and multimedia.\n\nBig Data is mainly defined by three important characteristics known as the 3Vs. Volume refers to the huge quantity of data generated every second. Variety represents different forms of data including structured, semi-structured, and unstructured data like text, images, and videos. Velocity indicates the speed at which data is generated and processed.\n\nBecause of these characteristics, special technologies such as Hadoop are required to store and analyze Big Data efficiently."
+      },
+      {
+        "question": "Explain why Big Data is important.",
+        "answer": "Big Data is important because it helps organizations make better decisions by analyzing vast amounts of information. It allows businesses to discover patterns, trends, and relationships that were previously hidden.\n\nCompanies use Big Data in customer behavior analysis, fraud detection, recommendation systems, and market forecasting. In healthcare, Big Data helps predict diseases and improve treatments. Governments use it for planning and public safety.\n\nBy using Big Data analytics, organizations can improve performance, reduce costs, and gain competitive advantage."
+      },
+      {
+        "question": "Explain the architecture of HDFS.",
+        "answer": "Hadoop Distributed File System (HDFS) is designed to store large files across multiple machines. It follows a master-slave architecture. The NameNode is the master server that maintains metadata such as file names and block locations. DataNodes are slave machines that store actual data blocks.\n\nWhen a file is stored, it is divided into smaller blocks and distributed across different DataNodes. Each block is replicated to ensure fault tolerance. If one node fails, data can still be retrieved from another.\n\nThis architecture provides high reliability, scalability, and efficient data access."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain how MapReduce works.",
+        "answer": "MapReduce is a programming model used to process large datasets in parallel across Hadoop clusters. It consists of two phases: Map and Reduce.\n\nIn the Map phase, input data is processed and converted into key-value pairs. In the Reduce phase, these pairs are grouped and aggregated to produce final results.\n\nThe framework automatically handles data distribution, task scheduling, and fault tolerance. This makes MapReduce highly scalable and efficient for Big Data processing."
+      },
+      {
+        "question": "Describe the components of MapReduce.",
+        "answer": "MapReduce includes several important components. The Driver program is responsible for configuring and submitting the job. The Mapper processes input data and generates intermediate key-value pairs. The Reducer aggregates these pairs to produce the final output.\n\nA Combiner may be used to perform local aggregation before sending data to reducers, which reduces network traffic. The Partitioner decides which reducer will process a given key.\n\nTogether, these components ensure efficient distributed data processing."
+      },
+      {
+        "question": "Explain the Word Count MapReduce program.",
+        "answer": "Word Count is the simplest and most popular example of MapReduce. The Mapper reads text input and outputs each word with a value of one. The framework groups identical words together.\n\nThe Reducer then adds up the counts for each word and produces the total frequency. This example demonstrates how Hadoop processes massive text data efficiently using parallel computation."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "What is the Writable interface in Hadoop?",
+        "answer": "The Writable interface is used in Hadoop for data serialization and deserialization. Since data must be transferred between machines in a cluster, it is converted into byte streams.\n\nWritable provides faster and more efficient serialization compared to Java's default methods. All Hadoop data types implement this interface to ensure smooth communication during MapReduce operations."
+      },
+      {
+        "question": "Explain WritableComparable.",
+        "answer": "WritableComparable is an extension of the Writable interface that also supports comparison between objects. It is mainly used for sorting keys during MapReduce processing.\n\nBy implementing this interface, Hadoop can efficiently sort and shuffle data before sending it to reducers."
+      },
+      {
+        "question": "Describe common Writable classes.",
+        "answer": "Hadoop provides several built-in writable classes such as IntWritable, LongWritable, Text, BytesWritable, and NullWritable. These classes act as wrappers around primitive data types.\n\nThey are optimized for performance and are widely used in MapReduce programs for reading and writing data."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain Pig and its architecture.",
+        "answer": "Apache Pig is a high-level platform used for analyzing large datasets in Hadoop. It consists of Pig Latin language and an execution environment. Users write scripts in Pig Latin, which are then converted into MapReduce jobs.\n\nPig architecture hides complex programming details and allows easier data processing, especially for users who are not familiar with Java."
+      },
+      {
+        "question": "What is Pig Latin?",
+        "answer": "Pig Latin is a scripting language used in Apache Pig to define data transformations. It supports operations like filtering, grouping, joining, and sorting data.\n\nPig Latin is simpler and shorter than writing traditional MapReduce programs, making it popular among data analysts."
+      },
+      {
+        "question": "Differentiate local mode and distributed mode in Pig.",
+        "answer": "In local mode, Pig runs on a single machine and uses the local file system. It is mainly used for development and testing.\n\nIn distributed mode, Pig runs on a Hadoop cluster and processes data stored in HDFS. This mode is suitable for handling large datasets in production environments."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "How is Hive different from traditional databases?",
+        "answer": "Hive provides an SQL-like interface to query data stored in Hadoop. Unlike traditional databases, Hive is designed for batch processing and large-scale analytics rather than real-time transactions.\n\nHive follows schema-on-read and is highly scalable, making it suitable for Big Data environments."
+      },
+      {
+        "question": "Explain Hive architecture.",
+        "answer": "Hive architecture consists of components such as Hive Client, Driver, Compiler, Metastore, and Execution Engine. When a query is submitted, it is parsed and converted into MapReduce or other execution frameworks.\n\nThis architecture allows users to analyze huge datasets without writing complex programs."
+      },
+      {
+        "question": "How are tables created and queried in Hive?",
+        "answer": "In Hive, users can create databases and tables similar to relational systems. Data can be loaded into tables from HDFS.\n\nQueries written in HiveQL allow filtering, grouping, and aggregation. These queries are internally converted into distributed processing jobs, enabling efficient analysis of large data."
+      }
+    ]
+  }
+}

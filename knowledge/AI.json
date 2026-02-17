@@ -1,0 +1,79 @@
+{
+  "subject": "AI",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "What is Artificial Intelligence? Explain its foundations and applications.",
+        "answer": "Artificial Intelligence (AI) is a branch of computer science that focuses on building systems capable of performing tasks that normally require human intelligence. These tasks include learning, reasoning, problem solving, understanding natural language, perception, and decision making. AI systems try to simulate intelligent behavior by using algorithms, data, and computational models.\n\nThe foundations of AI come from multiple disciplines. Mathematics provides logic and probability. Psychology contributes understanding of human thinking. Neuroscience inspires artificial neural networks. Philosophy deals with reasoning and knowledge. Engineering provides hardware and implementation techniques. These combined foundations make AI a multidisciplinary field.\n\nAI has numerous real-world applications. It is used in healthcare for disease diagnosis, in finance for fraud detection, in transportation for self-driving cars, in education for personalized learning, and in business for customer support using chatbots. AI is also used in robotics, gaming, speech recognition, and recommendation systems.\n\nBecause of its ability to automate complex tasks, AI is transforming industries and shaping the future of technology."
+      },
+      {
+        "question": "Explain heuristic search techniques.",
+        "answer": "Heuristic search techniques are used in AI to improve the efficiency of problem solving. Instead of exploring all possible paths, these methods use additional knowledge, called heuristics, to guide the search toward promising solutions.\n\nA heuristic is like a rule of thumb or an estimate that helps decide which path is likely to lead to the goal faster. For example, in route finding, straight-line distance can be used as a heuristic.\n\nPopular heuristic methods include Greedy Best First Search and A* search. A* combines the actual cost from the start and the estimated cost to the goal. This makes it both efficient and optimal in many cases.\n\nHeuristic search significantly reduces computation time and is widely used in robotics, games, and navigation systems."
+      },
+      {
+        "question": "What is a constraint satisfaction problem?",
+        "answer": "A constraint satisfaction problem (CSP) is a problem where a set of variables must be assigned values that satisfy specific constraints. Each variable has a domain of possible values, and constraints limit the combinations that are allowed.\n\nExamples include scheduling, map coloring, and puzzle solving. The aim is to find a solution that meets all restrictions.\n\nAI uses techniques such as backtracking, forward checking, and constraint propagation to efficiently solve CSPs. These methods reduce the search space and improve performance."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain alpha-beta pruning in game playing.",
+        "answer": "Alpha-beta pruning is an optimization technique used in game tree search, especially in two-player games like chess or tic-tac-toe. It improves the efficiency of the minimax algorithm by eliminating branches that cannot influence the final decision.\n\nAlpha represents the best value that the maximizing player can guarantee, while beta represents the best value that the minimizing player can guarantee. If during search it is found that a branch cannot produce a better result, it is pruned or ignored.\n\nThis reduces the number of nodes evaluated and allows deeper search within the same time. Alpha-beta pruning maintains correctness while improving speed."
+      },
+      {
+        "question": "Explain propositional logic.",
+        "answer": "Propositional logic is a formal system used to represent facts and relationships using statements that are either true or false. These statements are combined using logical operators such as AND, OR, NOT, implication, and biconditional.\n\nIt is widely used in AI for reasoning and decision making. Methods such as truth tables, resolution, and semantic tableaux help determine validity.\n\nAlthough simple, propositional logic forms the basis for more advanced reasoning systems."
+      },
+      {
+        "question": "What is predicate logic?",
+        "answer": "Predicate logic extends propositional logic by including objects, properties, and relations. It uses predicates, variables, and quantifiers such as 'for all' and 'there exists'.\n\nThis makes it more expressive and suitable for representing real-world knowledge. Predicate logic is fundamental in knowledge representation and automated reasoning."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain semantic networks.",
+        "answer": "A semantic network is a graphical representation of knowledge where concepts are represented as nodes and relationships are represented as links. It helps visualize how different pieces of information are connected.\n\nFor example, a bird can be linked to properties such as having wings and the ability to fly. Inheritance allows sharing of properties among related concepts.\n\nSemantic networks are easy to understand and widely used in AI systems for knowledge storage."
+      },
+      {
+        "question": "Explain frames in knowledge representation.",
+        "answer": "Frames are data structures used to represent stereotyped situations. Each frame contains slots that store attributes and values. Frames can inherit properties from other frames.\n\nThey are useful for representing structured knowledge and are widely applied in expert systems."
+      },
+      {
+        "question": "What is conceptual dependency theory?",
+        "answer": "Conceptual dependency theory is used to represent the meaning of natural language sentences in a structured form. It focuses on actions and relationships rather than words.\n\nThis approach helps AI systems understand language independent of syntax and improves reasoning capabilities."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "What is an expert system?",
+        "answer": "An expert system is a computer program that mimics the decision-making ability of a human expert. It uses a knowledge base and inference engine to provide solutions or recommendations.\n\nExpert systems are used in medical diagnosis, finance, and troubleshooting. They improve efficiency and provide consistent results."
+      },
+      {
+        "question": "Explain rule-based expert systems.",
+        "answer": "Rule-based systems use IF-THEN rules to represent knowledge. The inference engine applies these rules to known facts to derive conclusions.\n\nThey are easy to build and maintain but may become complex with large rule sets."
+      },
+      {
+        "question": "Explain Bayesian belief networks.",
+        "answer": "Bayesian belief networks are graphical models that represent probabilistic relationships among variables. They help in reasoning under uncertainty.\n\nThese networks are widely used in prediction, diagnosis, and risk assessment."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "What are fuzzy sets?",
+        "answer": "Fuzzy sets allow partial membership instead of strict true or false values. Each element has a degree of membership between 0 and 1.\n\nThis helps in modeling real-world situations where boundaries are not clear."
+      },
+      {
+        "question": "Explain fuzzy logic.",
+        "answer": "Fuzzy logic extends classical logic to handle uncertainty and approximate reasoning. It uses linguistic variables and membership functions.\n\nFuzzy logic is widely applied in control systems, appliances, and decision support."
+      },
+      {
+        "question": "What are membership functions?",
+        "answer": "Membership functions define how each element belongs to a fuzzy set. They can be triangular, trapezoidal, or Gaussian.\n\nThey play a crucial role in fuzzy inference systems."
+      }
+    ]
+  }
+}

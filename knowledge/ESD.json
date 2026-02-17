@@ -1,0 +1,75 @@
+{
+  "subject": "ED",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain the concept of entrepreneurship and its evolution.",
+        "answer": "Entrepreneurship refers to the process of identifying opportunities, organizing resources, and creating value through innovation and risk taking. An entrepreneur is a person who introduces new ideas, products, or methods and converts them into profitable ventures. Entrepreneurship plays a vital role in economic development by generating employment, increasing productivity, and promoting technological progress.\n\nHistorically, entrepreneurship evolved from simple trade activities to complex industrial and technological enterprises. Earlier, entrepreneurs were mainly merchants and traders. With industrialization, they became manufacturers and innovators. Today, entrepreneurship includes startups, digital businesses, and social enterprises.\n\nModern entrepreneurship emphasizes creativity, leadership, and adaptability. It is no longer limited to business creation but also includes problem solving and value generation for society. The evolution reflects changing economic and social needs."
+      },
+      {
+        "question": "Explain types of entrepreneurs and entrepreneurial competencies.",
+        "answer": "Entrepreneurs can be classified based on different criteria. Some are innovative entrepreneurs who introduce new products and technologies. Others are imitative, adapting existing ideas. Fabian entrepreneurs are cautious and skeptical, while drone entrepreneurs resist change.\n\nEntrepreneurial competencies refer to the skills and qualities required for success. These include opportunity recognition, risk management, leadership, communication, and decision making. Motivation, persistence, and creativity are also essential.\n\nDeveloping competencies through training and experience increases the probability of success in ventures."
+      },
+      {
+        "question": "Explain entrepreneurial motivation and development process.",
+        "answer": "Entrepreneurial motivation is the inner drive that encourages individuals to start businesses. Motivations may include desire for independence, achievement, financial gain, or social contribution.\n\nThe development process involves idea generation, feasibility analysis, planning, resource mobilization, implementation, and growth. Continuous learning and adaptation are required.\n\nProper support and environment enhance successful development."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain business plan and its importance.",
+        "answer": "A business plan is a formal document that describes business objectives, strategies, market analysis, financial projections, and operational plans. It acts as a roadmap for entrepreneurs and helps in organizing activities.\n\nIt is essential for attracting investors and obtaining loans. A well-prepared plan demonstrates clarity of vision and feasibility.\n\nContents usually include executive summary, company description, product details, marketing strategy, management structure, and financial data.\n\nA strong business plan increases confidence among stakeholders."
+      },
+      {
+        "question": "Explain procedure for setting up enterprises.",
+        "answer": "Setting up an enterprise involves several steps. First, the entrepreneur identifies an opportunity and prepares a feasibility study. Next comes registration, licensing, and legal formalities. Financial arrangements are made through banks or investors.\n\nInfrastructure such as location, machinery, and workforce is arranged. Finally, operations begin with marketing and distribution.\n\nGovernment initiatives like startup programs and incubation centers provide support."
+      },
+      {
+        "question": "Explain opportunity evaluation.",
+        "answer": "Opportunity evaluation determines whether an idea can become a successful venture. Factors include market demand, competition, financial viability, and risk assessment.\n\nProper evaluation reduces failure and helps allocate resources effectively."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain MSMEs and their challenges.",
+        "answer": "Micro, Small, and Medium Enterprises are crucial for economic growth. They generate employment, promote regional development, and encourage innovation.\n\nHowever, MSMEs face challenges such as lack of finance, outdated technology, marketing difficulties, and regulatory burdens. Competition from large firms also creates pressure.\n\nGovernment schemes aim to provide credit, training, and infrastructure support."
+      },
+      {
+        "question": "Explain industrial sickness.",
+        "answer": "Industrial sickness occurs when enterprises fail to generate sufficient revenue to sustain operations. Causes include poor management, lack of demand, financial mismanagement, and outdated technology.\n\nSymptoms include losses, declining production, and inability to repay loans. Rehabilitation involves restructuring, financial aid, and modernization."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain intellectual property rights.",
+        "answer": "Intellectual property rights protect creations of the mind such as inventions, designs, trademarks, and artistic works. Patents grant exclusive rights to inventors. Copyright protects literary and creative works. Trademarks safeguard brand identity.\n\nIPR encourages innovation by rewarding creators. Protection prevents unauthorized use and enhances competitive advantage."
+      },
+      {
+        "question": "Explain marketing mix for enterprises.",
+        "answer": "Marketing mix refers to strategies related to product, price, place, and promotion. Entrepreneurs must design offerings that satisfy customer needs. Proper pricing ensures profitability. Distribution channels make products accessible. Promotion creates awareness.\n\nEffective marketing drives growth and sustainability."
+      },
+      {
+        "question": "Explain branding and new marketing techniques.",
+        "answer": "Branding creates unique identity in the market. It builds trust and loyalty. Modern techniques include digital marketing, social media campaigns, and influencer strategies.\n\nThese methods expand reach and improve competitiveness."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain institutional support for entrepreneurship.",
+        "answer": "Various institutions support entrepreneurs by providing training, finance, and guidance. District Industry Centres assist with registration and subsidies. EDII provides skill development programs.\n\nSIDBI and IDBI offer financial support. Innovation councils encourage research and startups.\n\nInstitutional support reduces risk and promotes sustainable development."
+      },
+      {
+        "question": "Explain women entrepreneurship.",
+        "answer": "Women entrepreneurship refers to businesses owned and managed by women. It contributes to economic growth and social empowerment.\n\nChallenges include limited access to finance, education, and markets. Government schemes and self-help groups provide encouragement.\n\nPromoting women entrepreneurship leads to inclusive development."
+      },
+      {
+        "question": "Explain technology and entrepreneurship.",
+        "answer": "Technology plays a key role in modern entrepreneurship. It enables innovation, efficiency, and global reach. Digital platforms reduce costs and create new opportunities.\n\nEntrepreneurs must adapt to technological changes to remain competitive."
+      }
+    ]
+  }
+}

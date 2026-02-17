@@ -1,0 +1,79 @@
+{
+  "subject": "ML",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "What is Machine Learning? Explain the types of learning.",
+        "answer": "Machine Learning is a branch of Artificial Intelligence that enables computers to learn from data and improve their performance without being explicitly programmed. Instead of writing fixed rules, systems automatically identify patterns and make predictions based on experience.\n\nThere are three major types of learning. In Supervised Learning, the model is trained using labeled data where the correct output is known. It is mainly used for classification and regression tasks. In Unsupervised Learning, the model works on unlabeled data and tries to discover hidden patterns or structures such as clusters. Reinforcement Learning is based on interaction with an environment where an agent learns by receiving rewards or penalties for its actions.\n\nMachine learning is widely used in spam filtering, recommendation systems, speech recognition, and medical diagnosis."
+      },
+      {
+        "question": "Explain the components of a learning system.",
+        "answer": "A learning system consists of several important components. The first component is the data or experience, which provides examples for learning. The second component is the model that represents knowledge. The third component is the learning algorithm that adjusts the model parameters based on data.\n\nAnother important component is evaluation, where the model performance is measured using metrics such as accuracy or error rate. Finally, feedback helps improve the model continuously.\n\nTogether, these components enable the system to learn patterns, make decisions, and improve over time."
+      },
+      {
+        "question": "What are Version Spaces and PAC Learning?",
+        "answer": "Version space is the set of all hypotheses that are consistent with the training data. As more examples are provided, inconsistent hypotheses are eliminated, and the version space becomes smaller. This concept helps in understanding how learning algorithms generalize from data.\n\nPAC (Probably Approximately Correct) learning provides a theoretical framework to measure whether a learning algorithm can find a hypothesis that is approximately correct with high probability. It focuses on the trade-off between accuracy, confidence, and the number of training samples required."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain Decision Trees and the ID3 algorithm.",
+        "answer": "A Decision Tree is a supervised learning method used for classification and regression. It represents decisions in a tree-like structure where internal nodes represent tests on attributes, branches represent outcomes, and leaf nodes represent final predictions.\n\nThe ID3 algorithm builds a decision tree by selecting the attribute that provides the highest information gain at each step. Information gain measures how well an attribute separates the data into classes. The process continues recursively until all data is classified.\n\nDecision trees are easy to interpret and widely used in practical applications."
+      },
+      {
+        "question": "Explain Linear Regression and Logistic Regression.",
+        "answer": "Linear Regression is a technique used to predict continuous values. It establishes a relationship between independent variables and a dependent variable by fitting a straight line. The objective is to minimize the error between predicted and actual values.\n\nLogistic Regression, despite its name, is mainly used for classification problems. It predicts probabilities using a logistic function and assigns data to classes based on a threshold value.\n\nBoth methods are simple yet powerful tools in supervised learning."
+      },
+      {
+        "question": "What is multi-class and multi-label classification?",
+        "answer": "In multi-class classification, each instance belongs to only one class among many possible classes. For example, categorizing emails into spam, promotion, or social.\n\nIn multi-label classification, an instance can belong to multiple classes at the same time. For example, a movie can be classified as both action and comedy.\n\nThese methods are important in real-world applications where data may have complex labeling."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain Support Vector Machines.",
+        "answer": "Support Vector Machines (SVM) are supervised learning algorithms used for classification and regression. The goal is to find a hyperplane that best separates data points into different classes with maximum margin.\n\nFor non-linear data, SVM uses kernel functions to transform data into higher dimensions where separation becomes possible. SVMs are effective in high-dimensional spaces and are widely used in image recognition and text classification."
+      },
+      {
+        "question": "Explain Neural Networks and Multilayer Perceptron.",
+        "answer": "Neural Networks are computing systems inspired by the human brain. They consist of interconnected neurons organized into layers: input, hidden, and output layers.\n\nA Multilayer Perceptron (MLP) is a type of neural network that uses multiple layers and activation functions to learn complex patterns. Training is done using backpropagation, where errors are propagated backward to update weights.\n\nNeural networks are powerful tools for speech recognition, image processing, and deep learning applications."
+      },
+      {
+        "question": "Explain the Naïve Bayes classifier.",
+        "answer": "Naïve Bayes is a probabilistic classifier based on Bayes' theorem. It assumes that features are independent given the class label. Even though this assumption is simple, it performs well in many practical scenarios.\n\nIt is computationally efficient and widely used in spam filtering, sentiment analysis, and document classification."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "What is clustering? Explain K-means clustering.",
+        "answer": "Clustering is an unsupervised learning technique used to group similar data points together. The goal is to maximize similarity within a cluster and minimize similarity between clusters.\n\nK-means clustering works by selecting K initial centroids and assigning data points to the nearest centroid. The centroids are updated iteratively until convergence. K-means is simple, efficient, and widely used in market segmentation and image compression."
+      },
+      {
+        "question": "Explain hierarchical clustering.",
+        "answer": "Hierarchical clustering builds a tree-like structure called a dendrogram. It can be either agglomerative, where clusters are merged step by step, or divisive, where large clusters are split.\n\nThis method does not require specifying the number of clusters beforehand and provides a visual representation of relationships among data."
+      },
+      {
+        "question": "What are silhouettes in clustering?",
+        "answer": "Silhouette analysis is used to measure the quality of clustering. It evaluates how similar a data point is to its own cluster compared to other clusters.\n\nValues range from -1 to +1, where higher values indicate better clustering. It helps determine the optimal number of clusters."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "What is Ensemble Learning?",
+        "answer": "Ensemble learning combines multiple models to improve overall prediction performance. Instead of relying on a single classifier, it aggregates outputs from many learners to produce better accuracy and stability.\n\nThis approach reduces overfitting and improves generalization."
+      },
+      {
+        "question": "Explain Bagging and Random Forest.",
+        "answer": "Bagging, or Bootstrap Aggregating, involves training multiple models on different subsets of data and combining their predictions. Random Forest is an extension of bagging that builds many decision trees using random feature selection.\n\nIt provides high accuracy, handles missing data, and reduces variance."
+      },
+      {
+        "question": "Explain Boosting and AdaBoost.",
+        "answer": "Boosting is an ensemble method that builds models sequentially, where each new model focuses on correcting errors made by previous ones. AdaBoost assigns weights to training examples and adjusts them iteratively.\n\nIt is highly effective in improving weak learners and achieving strong predictive performance."
+      }
+    ]
+  }
+}

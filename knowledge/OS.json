@@ -1,0 +1,79 @@
+{
+  "subject": "OS",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain the functions of an operating system.",
+        "answer": "An operating system is system software that acts as an interface between users and computer hardware. Its main goal is to manage resources efficiently and provide a convenient environment for program execution. Without an operating system, it would be extremely difficult for users to interact with hardware directly.\n\nOne of the primary functions of an OS is process management. It creates, schedules, and terminates processes. Memory management is another crucial function, where the OS allocates and deallocates memory as needed.\n\nThe OS also handles file systems, enabling users to store and retrieve data. It manages input and output devices, providing drivers and buffering. Security and protection mechanisms prevent unauthorized access.\n\nAdditionally, operating systems provide networking capabilities and user interfaces. Overall, the OS ensures smooth, efficient, and secure operation of the computer."
+      },
+      {
+        "question": "Explain system calls.",
+        "answer": "System calls provide an interface between user programs and the operating system. They allow programs to request services such as file operations, process control, and communication.\n\nExamples include open, read, write, fork, and exec. System calls ensure safe access to hardware resources while maintaining protection.\n\nThey are essential for application development."
+      },
+      {
+        "question": "Explain types of operating systems.",
+        "answer": "Operating systems can be classified into batch, time-sharing, distributed, real-time, and embedded systems. Batch systems process jobs without interaction. Time-sharing systems allow multiple users simultaneously.\n\nDistributed systems connect multiple computers. Real-time systems respond within strict deadlines. Embedded systems are designed for specific devices.\n\nEach type serves different needs."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain process scheduling.",
+        "answer": "Process scheduling determines which process gets CPU time. The OS maintains queues of ready and waiting processes. Schedulers select processes based on criteria such as fairness and efficiency.\n\nCommon algorithms include FCFS, SJF, priority scheduling, and round robin. Each has advantages and trade-offs.\n\nProper scheduling improves utilization and responsiveness."
+      },
+      {
+        "question": "Explain process control block.",
+        "answer": "The process control block is a data structure that stores information about a process. It includes process state, program counter, registers, scheduling data, and memory details.\n\nPCB allows the OS to manage processes and switch between them."
+      },
+      {
+        "question": "Explain threads.",
+        "answer": "Threads are lightweight units of execution within a process. They share memory and resources. User threads are managed by libraries, while kernel threads are handled by OS.\n\nMultithreading improves performance and responsiveness."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain critical section problem.",
+        "answer": "The critical section problem occurs when multiple processes access shared resources. The challenge is to ensure mutual exclusion so that only one process executes at a time.\n\nSolutions include Peterson’s algorithm, semaphores, and monitors. Proper synchronization prevents race conditions and ensures consistency."
+      },
+      {
+        "question": "Explain semaphores.",
+        "answer": "A semaphore is a synchronization tool used to control access to shared resources. It is an integer variable accessed through wait and signal operations.\n\nSemaphores can be binary or counting. They are widely used in process coordination."
+      },
+      {
+        "question": "Explain deadlocks.",
+        "answer": "Deadlock occurs when processes wait indefinitely for resources. Four conditions are mutual exclusion, hold and wait, no preemption, and circular wait.\n\nHandling methods include prevention, avoidance, detection, and recovery."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain paging.",
+        "answer": "Paging is a memory management technique where logical memory is divided into pages and physical memory into frames. Pages are mapped to frames using page tables.\n\nPaging eliminates external fragmentation and simplifies allocation."
+      },
+      {
+        "question": "Explain virtual memory.",
+        "answer": "Virtual memory allows execution of processes without loading entire program into memory. Only required pages are loaded on demand. Page replacement algorithms such as FIFO and LRU manage memory efficiently.\n\nVirtual memory increases multiprogramming and system performance."
+      },
+      {
+        "question": "Explain thrashing.",
+        "answer": "Thrashing occurs when excessive paging leads to reduced CPU utilization. The system spends more time swapping pages than executing programs.\n\nProper allocation strategies help prevent thrashing."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain file system.",
+        "answer": "A file system organizes data into files and directories. It provides operations such as create, delete, read, and write. Access methods include sequential and direct.\n\nProtection mechanisms control permissions. File systems make data management efficient."
+      },
+      {
+        "question": "Explain disk scheduling.",
+        "answer": "Disk scheduling algorithms determine order of servicing requests. Examples include FCFS, SSTF, SCAN, and LOOK. Proper scheduling reduces seek time and improves performance."
+      },
+      {
+        "question": "Explain allocation methods.",
+        "answer": "Files can be stored using contiguous, linked, or indexed allocation. Each method has advantages regarding speed, space, and flexibility."
+      }
+    ]
+  }
+}

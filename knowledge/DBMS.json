@@ -1,0 +1,79 @@
+{
+  "subject": "DBMS",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain the purpose of database systems.",
+        "answer": "A database system is an organized collection of related data along with software to manage and access it. The main purpose of a database system is to store information efficiently and allow users to retrieve, modify, and manage data easily. Before databases, file systems were used, which had many problems such as redundancy, inconsistency, and difficulty in accessing information.\n\nDatabases eliminate duplication of data and ensure consistency. They provide security by restricting unauthorized access. They support concurrent access so that multiple users can work at the same time.\n\nAnother important purpose is data independence. Applications do not need to change even if storage structure changes. Databases also support backup and recovery mechanisms, ensuring safety of data.\n\nIn summary, database systems provide reliability, integrity, security, and efficient data management."
+      },
+      {
+        "question": "Explain data independence.",
+        "answer": "Data independence refers to the ability to change schema at one level without affecting the next higher level. It is one of the most important advantages of database systems.\n\nThere are two types: physical and logical data independence. Physical independence allows changes in storage methods without affecting conceptual schema. Logical independence allows changes in conceptual design without affecting user views.\n\nThis separation reduces application maintenance and improves flexibility."
+      },
+      {
+        "question": "Explain database architecture.",
+        "answer": "Database architecture is commonly divided into three levels: internal, conceptual, and external. The internal level deals with physical storage. The conceptual level describes overall structure. The external level provides user-specific views.\n\nThis three-schema architecture ensures abstraction and supports data independence."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain ER model.",
+        "answer": "The Entity Relationship model is used for conceptual design of databases. It represents real-world objects as entities and relationships among them. Entities have attributes that describe properties.\n\nThere are strong and weak entities. Relationships may have cardinality constraints such as one-to-one or one-to-many. ER diagrams provide a clear visual representation, helping designers understand requirements.\n\nThe ER model is widely used before implementing relational schema."
+      },
+      {
+        "question": "Explain relational algebra.",
+        "answer": "Relational algebra is a procedural query language used to operate on relations. Operations include selection, projection, union, difference, Cartesian product, and join.\n\nSelection retrieves rows satisfying conditions. Projection chooses columns. Join combines related tables.\n\nIt forms the theoretical foundation of SQL and query optimization."
+      },
+      {
+        "question": "Explain relational calculus.",
+        "answer": "Relational calculus is a non-procedural language. It describes what to retrieve rather than how. Tuple relational calculus uses tuple variables, while domain calculus uses domain variables.\n\nSafety expressions ensure queries produce finite results."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain SQL command categories.",
+        "answer": "SQL is the standard language for interacting with databases. Commands are grouped into DDL, DML, DCL, and TCL.\n\nDDL defines structure, such as CREATE and ALTER. DML manipulates data like INSERT, UPDATE, DELETE. DCL controls access using GRANT and REVOKE. TCL manages transactions with COMMIT and ROLLBACK.\n\nThese categories cover all aspects of database interaction."
+      },
+      {
+        "question": "Explain constraints.",
+        "answer": "Constraints enforce rules on data. Primary key uniquely identifies records. Foreign key maintains referential integrity. NOT NULL prevents empty values. CHECK enforces conditions.\n\nThey ensure accuracy and reliability of data."
+      },
+      {
+        "question": "Explain PL/SQL.",
+        "answer": "PL/SQL extends SQL with programming features. It supports variables, loops, procedures, functions, triggers, and cursors.\n\nIt allows complex business logic inside the database and improves performance."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain normalization.",
+        "answer": "Normalization is the process of organizing data to reduce redundancy and improve integrity. It divides tables based on functional dependencies.\n\nFirst normal form removes repeating groups. Second normal form eliminates partial dependency. Third normal form removes transitive dependency. BCNF is stricter and ensures stronger consistency.\n\nHigher normal forms further reduce anomalies. Normalization leads to efficient database design."
+      },
+      {
+        "question": "Explain functional dependency.",
+        "answer": "A functional dependency occurs when one attribute uniquely determines another. It is used to identify keys and design normalized schemas.\n\nUnderstanding dependencies prevents redundancy and anomalies."
+      },
+      {
+        "question": "Why NoSQL?",
+        "answer": "NoSQL databases are designed to handle large volumes of unstructured data. They provide scalability, flexibility, and high performance. Unlike relational systems, they support dynamic schemas and distributed storage."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain ACID properties.",
+        "answer": "ACID properties ensure reliable transactions. Atomicity means all or nothing. Consistency ensures valid state. Isolation prevents interference. Durability guarantees permanence.\n\nThese properties are fundamental to database reliability."
+      },
+      {
+        "question": "Explain deadlocks.",
+        "answer": "Deadlock occurs when transactions wait indefinitely for resources held by each other. Detection, avoidance, and prevention techniques are used. Wait-die and wound-wait are popular prevention strategies."
+      },
+      {
+        "question": "Explain indexing.",
+        "answer": "Indexing improves data retrieval speed. Primary index is based on ordering key. Secondary index is created on non-ordering fields. Multilevel and tree indexing enhance performance.\n\nProper indexing reduces search time significantly."
+      }
+    ]
+  }
+}

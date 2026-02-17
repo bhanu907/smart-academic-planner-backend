@@ -1,0 +1,59 @@
+{
+  "subject": "CNS",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain security attacks, services and mechanisms.",
+        "answer": "Network security deals with protecting information and systems from unauthorized access, misuse, modification, or destruction. A security attack is any action that compromises the confidentiality, integrity, or availability of data. Attacks are broadly classified into passive and active attacks.\n\nPassive attacks involve monitoring or eavesdropping on communication without altering the data. Examples include traffic analysis and release of message contents. These attacks are difficult to detect because they do not modify information.\n\nActive attacks attempt to alter system resources or affect operations. Examples include masquerade, replay, modification of messages, and denial of service. These attacks are more harmful and require strong countermeasures.\n\nTo defend against attacks, security services are provided. Important services include authentication, access control, data confidentiality, data integrity, and non-repudiation. Authentication verifies identity. Confidentiality ensures data remains private. Integrity prevents unauthorized changes.\n\nSecurity mechanisms are techniques used to implement these services. Examples include encryption, digital signatures, access control lists, and firewalls. Together, attacks, services, and mechanisms form the foundation of network security."
+      },
+      {
+        "question": "Explain substitution and transposition techniques.",
+        "answer": "Classical encryption techniques form the basis of modern cryptography. Two major methods are substitution and transposition. In substitution ciphers, each element of plaintext is replaced with another symbol. The structure of the message remains the same, but characters change.\n\nExamples include Caesar cipher and monoalphabetic cipher. These methods are simple but vulnerable to frequency analysis.\n\nIn transposition ciphers, characters remain the same but their positions are rearranged. The goal is to scramble order rather than identity. Examples include rail fence and columnar transposition.\n\nBoth methods can be combined to improve security. Although outdated, they provide insight into encryption principles and evolution of cryptographic systems."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain Feistel cipher structure.",
+        "answer": "Feistel cipher is a symmetric structure used in many modern block ciphers. It divides the plaintext block into two halves. In each round, one half is processed through a function and combined with the other half using XOR. The halves are then swapped.\n\nThis design allows encryption and decryption to use the same structure, simplifying implementation. Multiple rounds provide strong diffusion and confusion.\n\nFamous algorithms such as DES use the Feistel structure. Its flexibility makes it adaptable to different key sizes and functions."
+      },
+      {
+        "question": "Explain Advanced Encryption Standard (AES).",
+        "answer": "AES is a widely used symmetric block cipher adopted as a standard by governments and industries. It operates on fixed block sizes of 128 bits and supports key sizes of 128, 192, and 256 bits.\n\nAES uses substitution-permutation network instead of Feistel. Operations include SubBytes, ShiftRows, MixColumns, and AddRoundKey. Multiple rounds increase resistance to attacks.\n\nAES is efficient in both hardware and software and provides high security. It is used in secure communication, banking, and wireless networks."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain RSA algorithm.",
+        "answer": "RSA is one of the most popular public key cryptographic algorithms. It is based on the mathematical difficulty of factoring large prime numbers. RSA uses two keys: a public key for encryption and a private key for decryption.\n\nKey generation involves selecting large primes, computing modulus, and determining exponents. Messages encrypted with the public key can only be decrypted using the private key.\n\nRSA ensures confidentiality, authentication, and digital signatures. It is widely used in secure web communication and email encryption."
+      },
+      {
+        "question": "Explain Diffie-Hellman key exchange.",
+        "answer": "Diffie-Hellman is a method for securely exchanging cryptographic keys over a public channel. It allows two parties to generate a shared secret without transmitting it directly.\n\nBoth parties select private values and compute public values. Using mathematical properties, they derive the same secret key.\n\nThis method is fundamental in establishing secure sessions in modern protocols."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain hash functions and message authentication codes.",
+        "answer": "Hash functions convert messages of arbitrary length into fixed-size outputs called digests. They ensure data integrity. A good hash function must be collision resistant and irreversible.\n\nMessage Authentication Codes (MACs) combine hashing with secret keys. They verify both integrity and authenticity.\n\nAlgorithms such as SHA are widely used. Hashing is critical in digital signatures and password storage."
+      },
+      {
+        "question": "Explain digital signatures.",
+        "answer": "Digital signatures provide authentication, integrity, and non-repudiation. The sender signs a message using a private key. The receiver verifies using the public key.\n\nThey ensure that the message is genuine and has not been altered. Digital signatures are essential in e-commerce and legal transactions."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain SSL/TLS.",
+        "answer": "SSL and TLS are protocols designed to secure communication over networks. They provide encryption, authentication, and integrity between clients and servers.\n\nDuring handshake, keys are exchanged and certificates are verified. After establishment, secure data transfer begins.\n\nHTTPS is built on TLS and is widely used in web security."
+      },
+      {
+        "question": "Explain intruders, viruses and worms.",
+        "answer": "Intruders are individuals who attempt unauthorized access. They may be masqueraders, misfeasors, or clandestine users. Detecting intruders requires monitoring and prevention mechanisms.\n\nViruses attach themselves to programs and spread when executed. Worms replicate independently and spread rapidly across networks.\n\nSecurity practices such as antivirus software, firewalls, and user awareness help reduce threats."
+      }
+    ]
+  }
+}

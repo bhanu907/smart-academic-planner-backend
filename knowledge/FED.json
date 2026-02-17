@@ -1,0 +1,63 @@
+{
+  "subject": "WT",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain HTML5 features.",
+        "answer": "HTML5 is the latest version of HyperText Markup Language used to design modern web applications. It introduced many powerful features that make web development easier and more interactive. HTML5 provides new semantic elements such as header, footer, article, and section that improve readability and search engine optimization.\n\nIt supports multimedia elements like audio and video without requiring external plugins. Canvas and SVG are used for drawing graphics and animations directly in the browser. Web storage allows data to be stored locally using localStorage and sessionStorage, reducing server load.\n\nHTML5 also supports geolocation, drag and drop functionality, and web workers for background processing. These features improve performance and user experience. Due to these advancements, HTML5 is widely used in building modern, responsive, and dynamic websites."
+      },
+      {
+        "question": "Explain CSS box model.",
+        "answer": "The CSS box model describes how elements are structured and spaced in a webpage. Every element is considered a rectangular box consisting of content, padding, border, and margin.\n\nContent represents actual text or images. Padding is the space between content and border. Border surrounds padding, and margin is outer space separating elements.\n\nUnderstanding the box model is essential for layout design and alignment. It helps developers control spacing, size, and positioning effectively."
+      },
+      {
+        "question": "Explain CSS selectors.",
+        "answer": "CSS selectors are patterns used to select HTML elements for styling. Basic selectors include element, id, and class selectors. Advanced selectors include attribute, pseudo-class, and pseudo-element selectors.\n\nSelectors allow developers to apply consistent styles across pages. They improve maintainability and flexibility."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain ES6 features.",
+        "answer": "ES6 introduced significant improvements to JavaScript, making it more powerful and developer friendly. One of the key features is arrow functions, which provide shorter syntax and lexical binding of 'this'. Default parameters allow functions to have predefined values.\n\nDestructuring enables extraction of values from arrays or objects easily. Classes provide object-oriented capabilities with constructors and inheritance. The super keyword is used to access parent class methods.\n\nHigher order functions allow passing functions as arguments or returning them. These features enhance readability, modularity, and maintainability of code."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain React components, state and props.",
+        "answer": "React is a popular JavaScript library used for building user interfaces. Applications are built using components, which are reusable building blocks. Components can be functional or class-based.\n\nProps are inputs passed from parent to child components. They are read-only and help in data flow. State represents internal data managed within a component. Changes in state trigger re-rendering, ensuring dynamic updates.\n\nUsing state and props effectively allows developers to create interactive and maintainable applications."
+      },
+      {
+        "question": "Explain component lifecycle.",
+        "answer": "Component lifecycle refers to stages a component goes through from creation to destruction. It includes mounting, updating, and unmounting phases.\n\nLifecycle methods allow developers to run code at specific times, such as fetching data after rendering. Understanding lifecycle helps manage performance and resources."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain React hooks.",
+        "answer": "Hooks were introduced to allow functional components to manage state and lifecycle features. useState is used to store data. useEffect handles side effects such as API calls. useContext provides global state.\n\nuseReducer is useful for complex state logic. useRef gives access to DOM elements. useMemo and useCallback optimize performance by preventing unnecessary calculations.\n\nHooks simplify code and promote reusable logic."
+      },
+      {
+        "question": "Explain API calls using fetch and axios.",
+        "answer": "Web applications often need to communicate with servers. Fetch and axios are used to send HTTP requests. Fetch is built-in and returns promises. Axios provides additional features such as automatic JSON transformation and error handling.\n\nThey allow retrieving and sending data efficiently."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain communication between components.",
+        "answer": "Communication in React happens through props, callbacks, or context. Parent components pass data down, while child components send information up using functions.\n\nFor deeply nested structures, context API helps share data globally. Proper communication ensures synchronization and consistency."
+      },
+      {
+        "question": "Explain CORS policy.",
+        "answer": "CORS stands for Cross-Origin Resource Sharing. It is a security mechanism that restricts requests made from different domains. Servers must explicitly allow origins.\n\nCORS protects users from malicious activities and ensures safe data transfer."
+      },
+      {
+        "question": "Explain basic MongoDB operations.",
+        "answer": "MongoDB is a NoSQL database that stores data in JSON-like documents. Operations include insert to add records, update to modify, delete to remove, and find to query data.\n\nIt provides flexibility, scalability, and high performance, making it popular in MERN applications."
+      }
+    ]
+  }
+}

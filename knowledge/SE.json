@@ -1,0 +1,79 @@
+{
+  "subject": "SE",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "What is Software Engineering? Explain its challenges.",
+        "answer": "Software Engineering is the systematic application of engineering principles, methods, and tools to the development, operation, and maintenance of software. It focuses on producing high-quality software that meets user requirements while being delivered on time and within budget. Unlike traditional programming, software engineering involves planning, modeling, analysis, design, testing, and management activities.\n\nThe emergence of software engineering was driven by the software crisis, where projects failed due to cost overruns, delays, and unreliable systems. As software systems became larger and more complex, structured methods became essential.\n\nThere are several challenges in software engineering. One major challenge is requirement volatility, where user needs change frequently. Another challenge is managing complexity, especially in large distributed systems. Ensuring security, reliability, and performance is also difficult. Additionally, maintaining communication among stakeholders, managing risks, and delivering software quickly in competitive markets add further pressure.\n\nTherefore, software engineering provides disciplined approaches to overcome these challenges and produce dependable systems."
+      },
+      {
+        "question": "Explain software process models.",
+        "answer": "A software process model is a structured framework that defines the sequence of activities required to develop software. It provides guidance for planning, execution, monitoring, and control of projects. Process models help teams understand what tasks must be performed and in what order.\n\nPrescriptive models such as Waterfall follow a linear sequence where each phase must be completed before moving to the next. These models emphasize documentation and control. Agile models, on the other hand, promote flexibility, customer collaboration, and rapid delivery through iterative development.\n\nThe Rational Unified Process (RUP) combines iterative development with well-defined roles and activities. It divides development into phases such as inception, elaboration, construction, and transition.\n\nProcess models improve predictability, enhance communication, and help manage risks. They ensure systematic progress and quality outcomes."
+      },
+      {
+        "question": "What are the characteristics of a good process model?",
+        "answer": "A good process model provides clarity, structure, and adaptability. It should clearly define activities, roles, responsibilities, inputs, and outputs. This ensures that team members understand their duties and reduces confusion.\n\nAnother important characteristic is flexibility. Since requirements may change, the model should accommodate modifications without major disruption. It must also support risk management and quality assurance.\n\nEffective communication and stakeholder involvement are essential features. A good model should promote collaboration between developers, customers, and managers.\n\nFinally, it should support measurement and improvement so that organizations can refine their practices over time."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain project management essentials in software engineering.",
+        "answer": "Project management in software engineering involves planning, organizing, directing, and controlling resources to achieve project objectives. It ensures that software is delivered within scope, time, and cost constraints.\n\nEffective project management begins with defining clear goals and deliverables. Managers must estimate resources, schedule tasks, allocate responsibilities, and monitor progress. Risk identification and mitigation are also critical.\n\nCommunication plays a vital role, as coordination between teams ensures smooth execution. Metrics and measurements help evaluate productivity and quality.\n\nWithout proper management, projects may fail due to poor planning or uncontrolled changes. Therefore, project management provides the discipline required for successful software development."
+      },
+      {
+        "question": "Describe effort estimation techniques.",
+        "answer": "Effort estimation is the process of predicting the amount of work required to complete a software project. Accurate estimation helps in budgeting, scheduling, and staffing.\n\nCommon techniques include expert judgment, analogy-based estimation, and algorithmic models such as COCOMO. Expert judgment relies on experienced professionals. Analogy compares current projects with past similar ones.\n\nAlgorithmic models use mathematical formulas based on project size and complexity. Function point analysis and use case points are also popular.\n\nAlthough estimation is difficult, using structured methods reduces uncertainty and improves planning accuracy."
+      },
+      {
+        "question": "What is project scheduling?",
+        "answer": "Project scheduling involves organizing tasks, timelines, and dependencies to ensure timely completion. Activities are broken down into manageable units, and milestones are defined.\n\nTools such as Gantt charts and PERT diagrams help visualize schedules. Scheduling ensures optimal utilization of resources and identifies critical paths.\n\nRegular monitoring helps detect delays early. Proper scheduling increases the probability of meeting deadlines and maintaining quality."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "Explain the requirement engineering process.",
+        "answer": "Requirement engineering is the process of identifying, analyzing, documenting, and managing software requirements. It ensures that the final product meets user expectations.\n\nThe process begins with elicitation, where information is gathered from stakeholders. Next, analysis is performed to resolve conflicts and prioritize needs. Requirements are then documented in a formal specification.\n\nValidation ensures correctness, completeness, and feasibility. Finally, requirement management handles changes over time.\n\nEffective requirement engineering reduces misunderstandings and prevents costly rework during later stages."
+      },
+      {
+        "question": "What is requirement elicitation?",
+        "answer": "Requirement elicitation is the activity of collecting information about system needs from stakeholders. Techniques include interviews, questionnaires, workshops, observation, and prototyping.\n\nThe goal is to understand expectations, constraints, and goals. Since stakeholders may have different views, communication is essential.\n\nProper elicitation ensures that developers build the right system and reduces risks of failure."
+      },
+      {
+        "question": "Explain requirement validation.",
+        "answer": "Requirement validation ensures that documented requirements are correct and reflect actual user needs. It checks for consistency, completeness, and feasibility.\n\nReviews, inspections, and test case generation are common validation techniques. Errors detected early are cheaper to fix.\n\nValidation improves quality and builds stakeholder confidence."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "Explain the software design process.",
+        "answer": "The software design process transforms requirements into a blueprint for implementation. It defines system architecture, components, interfaces, and data structures.\n\nDesign involves high-level architecture and detailed module design. Principles such as abstraction, modularity, and separation of concerns are applied.\n\nA good design improves maintainability, scalability, and reliability. Documentation ensures clear understanding among developers.\n\nProper design reduces complexity and supports future enhancements."
+      },
+      {
+        "question": "What is modular design? Explain coupling and cohesion.",
+        "answer": "Modular design divides a system into smaller independent modules. This makes development easier and improves maintainability.\n\nCoupling refers to the degree of interdependence between modules. Low coupling is desirable. Cohesion refers to how closely related the responsibilities of a module are. High cohesion is preferred.\n\nTogether, low coupling and high cohesion lead to flexible and robust designs."
+      },
+      {
+        "question": "Explain coding principles.",
+        "answer": "Coding principles ensure readability, reliability, and maintainability of software. Programs should follow consistent naming conventions and proper documentation.\n\nCode should be simple, modular, and reusable. Error handling and testing are essential.\n\nFollowing standards reduces defects and makes collaboration easier."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain black box and white box testing.",
+        "answer": "Black box testing focuses on validating system functionality without knowledge of internal code. Testers provide inputs and verify outputs based on requirements.\n\nWhite box testing examines internal logic, paths, and conditions. Developers ensure that all statements and branches are executed.\n\nBoth methods complement each other and improve defect detection."
+      },
+      {
+        "question": "What is software quality assurance?",
+        "answer": "Software quality assurance (SQA) refers to systematic activities that ensure software processes and products meet standards. It includes reviews, audits, testing, and process improvement.\n\nStandards such as CMM and ISO 9000 provide frameworks for maintaining quality. SQA builds reliability and customer trust."
+      },
+      {
+        "question": "Explain software maintenance.",
+        "answer": "Software maintenance involves modifying software after delivery to correct faults, improve performance, or adapt to new requirements. It includes corrective, adaptive, perfective, and preventive maintenance.\n\nMaintenance consumes a major portion of the software life cycle cost. Proper documentation and design make maintenance easier."
+      }
+    ]
+  }
+}

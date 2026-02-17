@@ -1,0 +1,79 @@
+{
+  "subject": "DS",
+  "units": {
+    "UNIT-I": [
+      {
+        "question": "Explain the need for Data Science.",
+        "answer": "Data Science is needed because modern organizations generate massive amounts of data from various sources such as social media, online transactions, sensors, and mobile applications. Traditional methods are not sufficient to analyze such large and complex datasets.\n\nData science combines statistics, programming, mathematics, and domain knowledge to extract useful information from raw data. It helps in discovering hidden patterns, predicting future trends, and supporting better decision making.\n\nBy using data science, businesses can improve efficiency, understand customer behavior, reduce risks, and gain competitive advantage."
+      },
+      {
+        "question": "Describe the Data Science process.",
+        "answer": "The Data Science process involves a series of systematic steps followed to solve real-world problems using data. It begins with defining the problem and setting the research goal. Next, relevant data is collected from different sources.\n\nAfter collection, the data is cleaned, integrated, and transformed into a usable format. Exploratory Data Analysis is then performed to understand patterns and relationships. Based on this understanding, models are built and evaluated.\n\nFinally, the results are presented using visualizations and reports, and applications are developed for practical use. The process is iterative and improves with new data."
+      },
+      {
+        "question": "What is Exploratory Data Analysis (EDA)?",
+        "answer": "Exploratory Data Analysis is the method of analyzing datasets to summarize their main characteristics. It involves the use of statistical tools and visualization techniques to understand data distribution, detect outliers, and identify relationships between variables.\n\nEDA helps data scientists form hypotheses and select appropriate models. It acts as a foundation before applying advanced analytics or machine learning methods."
+      }
+    ],
+
+    "UNIT-II": [
+      {
+        "question": "Explain measures of central tendency.",
+        "answer": "Measures of central tendency are used to describe the typical or central value of a dataset. The three main measures are mean, median, and mode.\n\nThe mean is the arithmetic average obtained by dividing the sum of values by the number of observations. The median is the middle value when data is arranged in order. The mode is the value that appears most frequently.\n\nThese measures help in understanding the general behavior of the dataset."
+      },
+      {
+        "question": "What are outliers? Why are they important?",
+        "answer": "Outliers are data values that differ significantly from other observations in a dataset. They may occur due to errors in measurement or actual unusual events.\n\nOutliers are important because they can affect statistical calculations such as mean and standard deviation. Identifying them helps in improving data accuracy and making better decisions."
+      },
+      {
+        "question": "Explain variance and standard deviation.",
+        "answer": "Variance and standard deviation are measures of variability that describe how spread out data points are from the mean. Variance is the average of squared deviations from the mean.\n\nStandard deviation is the square root of variance and is easier to interpret because it is expressed in the same unit as the data. A low standard deviation indicates values are close to the mean, while a high value shows greater dispersion."
+      }
+    ],
+
+    "UNIT-III": [
+      {
+        "question": "What are NumPy arrays?",
+        "answer": "NumPy arrays are powerful data structures used for numerical computations in Python. They allow efficient storage and manipulation of large datasets.\n\nNumPy supports vectorized operations, which means calculations can be performed on entire arrays without writing loops. This improves speed and simplifies code."
+      },
+      {
+        "question": "Explain data manipulation using Pandas.",
+        "answer": "Pandas is a Python library used for data analysis and manipulation. It provides two main data structures: Series and DataFrame.\n\nUsing Pandas, users can perform operations such as indexing, filtering, sorting, grouping, and aggregation. It is widely used for cleaning and preparing data before analysis."
+      },
+      {
+        "question": "How is missing data handled?",
+        "answer": "Missing data occurs when certain values are not available in a dataset. Common methods to handle missing data include deleting rows, filling values with mean or median, or using forward and backward filling.\n\nHandling missing data properly ensures accurate analysis and reliable model performance."
+      }
+    ],
+
+    "UNIT-IV": [
+      {
+        "question": "What is a normal distribution?",
+        "answer": "A normal distribution is a symmetric, bell-shaped distribution in which the mean, median, and mode are equal. Many natural phenomena follow normal distribution.\n\nIt is important because it allows prediction of probabilities and is widely used in statistical analysis and hypothesis testing."
+      },
+      {
+        "question": "Explain correlation and correlation coefficient.",
+        "answer": "Correlation measures the relationship between two variables. It indicates whether they move in the same direction or opposite directions.\n\nThe correlation coefficient ranges from -1 to +1. A value close to +1 shows strong positive correlation, close to -1 indicates strong negative correlation, and near zero means no relationship."
+      },
+      {
+        "question": "What is regression analysis?",
+        "answer": "Regression analysis is a statistical technique used to model the relationship between dependent and independent variables. It helps in prediction and forecasting.\n\nThe regression line is calculated using the least squares method to minimize errors. Regression is widely used in business, economics, and research."
+      }
+    ],
+
+    "UNIT-V": [
+      {
+        "question": "Explain Matplotlib.",
+        "answer": "Matplotlib is a popular Python library used for data visualization. It helps in creating graphs such as line plots, bar charts, histograms, and scatter plots.\n\nIt allows customization of labels, titles, and colors, making data easier to understand."
+      },
+      {
+        "question": "What is Seaborn?",
+        "answer": "Seaborn is built on top of Matplotlib and provides advanced statistical visualizations. It simplifies complex plots and improves graphical appearance.\n\nSeaborn is widely used for exploring relationships between variables."
+      },
+      {
+        "question": "Explain interactive visualization using Bokeh.",
+        "answer": "Bokeh is a Python library used to create interactive visualizations for web browsers. Users can zoom, filter, and explore data dynamically.\n\nIt is useful for dashboards and modern data applications where interaction is required."
+      }
+    ]
+  }
+}
