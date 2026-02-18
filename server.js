@@ -24,7 +24,7 @@ app.use(
     origin: [
       "http://localhost:3000", // local frontend
       "http://localhost:5173", // vite
-      "https://your-frontend-name.netlify.app", // 🔥 replace after deploy
+      "https://dainty-fox-f97344.netlify.app", // ✅ your real Netlify frontend
     ],
     credentials: true,
   }),
