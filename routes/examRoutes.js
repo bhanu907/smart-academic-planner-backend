@@ -65,7 +65,7 @@ router.delete("/timetable/:id", async (req, res) => {
   }
 });
 
-/* ================= UPLOAD & PERFECT EXTRACT ================= */
+/* ================= UPLOAD & EXTRACT ================= */
 router.post("/upload", upload.single("file"), async (req, res) => {
   try {
     const userId = getUserFromToken(req);
@@ -77,17 +77,14 @@ router.post("/upload", upload.single("file"), async (req, res) => {
 
     console.log("📄 Timetable uploaded for:", userId);
 
-    /* SAVE FILE */
     await Timetable.create({
       user: userId,
       filename: req.file.originalname,
     });
 
-    /* READ PDF */
     const data = await pdf(req.file.buffer);
     const text = data.text;
 
-    // clear old
     await Exam.deleteMany({ user: userId });
 
     const lines = text
@@ -95,11 +92,13 @@ router.post("/upload", upload.single("file"), async (req, res) => {
       .map((l) => l.trim())
       .filter((l) => l);
 
-    // date format
     const dateRegex = /(\d{2})-(\d{2})-(\d{4})$/;
+
+    let extractedCount = 0;
 
     console.log("🧠 Total lines:", lines.length);
 
+    /* ===== ORIGINAL EXTRACTION (UNCHANGED) ===== */
     for (let line of lines) {
       const match = line.match(dateRegex);
 
@@ -110,7 +109,6 @@ router.post("/upload", upload.single("file"), async (req, res) => {
 
         const examDate = new Date(year, month, day);
 
-        // remove date from end → remaining is description
         const title = line.replace(dateRegex, "").trim();
 
         if (!title || title.length < 4) continue;
@@ -121,11 +119,36 @@ router.post("/upload", upload.single("file"), async (req, res) => {
           date: examDate,
         });
 
+        extractedCount++;
         console.log("✅", examDate, "→", title);
       }
     }
 
-    res.json({ message: "FROM dates & descriptions saved perfectly ✅" });
+    /* ===== NEW SAFETY FALLBACK (ADDED ONLY) ===== */
+    if (extractedCount === 0) {
+      console.log("⚠ No exams found with strict method. Trying fallback...");
+
+      const fallbackRegex = /(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})/g;
+      const matches = [...text.matchAll(fallbackRegex)];
+
+      for (const m of matches) {
+        const day = parseInt(m[1]);
+        const month = parseInt(m[2]) - 1;
+        const year = parseInt(m[3]);
+
+        const examDate = new Date(year, month, day);
+
+        await Exam.create({
+          user: userId,
+          title: "Exam",
+          date: examDate,
+        });
+
+        console.log("🛟 Fallback saved:", examDate);
+      }
+    }
+
+    res.json({ message: "Timetable processed successfully ✅" });
   } catch (err) {
     console.log("❌ Extraction error:", err);
     res.status(500).json({ message: "Upload failed" });
